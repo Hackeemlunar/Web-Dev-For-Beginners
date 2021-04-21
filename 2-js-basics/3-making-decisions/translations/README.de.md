@@ -162,7 +162,11 @@ Erstellen Sie ein Programm, das zuerst mit logischen Operatoren geschrieben wird
 
 ## Review & Selbststudium
 
+<<<<<<< HEAD
 Lesen Sie mehr über die vielen Operatoren, die dem Benutzer [auf MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) zur Verfügung stehen.
+=======
+Lesen Sie mehr über die vielen Operatoren, die dem Benutzer [auf MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators) zur Verfügung stehen.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Zuordnung
 

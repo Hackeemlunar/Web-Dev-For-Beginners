@@ -1,6 +1,10 @@
 # Terrarium Project Part 2: Introduction to CSS
 
+<<<<<<< HEAD
 ![Introduction to CSS](images/webdev101-css.png)
+=======
+![Introduction to CSS](/sketchnotes/webdev101-css.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
@@ -194,7 +198,11 @@ First, style the `.terrarium` div children as a rounded rectangle using CSS:
 	height: 80%;
 	width: 60%;
 	background: #d1e1df;
+<<<<<<< HEAD
 	border-radius: 10%;
+=======
+	border-radius: 1rem;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	position: absolute;
 	bottom: 0.5%;
 	left: 20%;
@@ -224,6 +232,7 @@ First, style the `.terrarium` div children as a rounded rectangle using CSS:
 }
 
 .dirt {
+<<<<<<< HEAD
 	width: 58%;
 	height: 5%;
 	background: #3a241d;
@@ -231,12 +240,27 @@ First, style the `.terrarium` div children as a rounded rectangle using CSS:
 	border-radius: 0 0 4rem 4rem;
 	bottom: 1%;
 	left: 21%;
+=======
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	opacity: 0.7;
 	z-index: -1;
 }
 ```
 
+<<<<<<< HEAD
 Note the use of percentages here, even for the `border-radius`. If you scale your browser down, you can see how the jar corners scale as well. Also notice the widths and height percentages for the jar elements and how each element is absolutely positioned in the center, pinned to the bottom of the viewport.
+=======
+Note the use of percentages here. If you scale your browser down, you can see how the jar scales as well. Also notice the widths and height percentages for the jar elements and how each element is absolutely positioned in the center, pinned to the bottom of the viewport.
+
+We are also using `rem` for the border-radius, a font-relative length. Read more about this type of relative measurement in the [CSS spec](https://www.w3.org/TR/css-values-3/#font-relative-lengths).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ Try changing the jar colors and opacity vs. those of the dirt. What happens? Why?
 
@@ -248,7 +272,11 @@ Add a 'bubble' shine to the left bottom area of the jar to make it look more gla
 
 ![finished terrarium](./images/terrarium-final.png)
 
+<<<<<<< HEAD
 To complete the post-lecture quiz, go through this Learn module: [Style your HTML app with CSS](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
+=======
+To complete the post-lecture quiz, go through this Learn module: [Style your HTML app with CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Post-Lecture Quiz
 

@@ -309,7 +309,11 @@ function updateElement(id, textOrNode) {
 }
 ```
 
+<<<<<<< HEAD
 私たちは [`append()`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) メソッドを使用しています。これにより、テキストや [DOM Nodes](https://developer.mozilla.org/ja/docs/Web/API/Node) を親要素にアタッチすることができ、すべてのユースケースに最適です。
+=======
+私たちは [`append()`](https://developer.mozilla.org/docs/Web/API/ParentNode/append) メソッドを使用しています。これにより、テキストや [DOM Nodes](https://developer.mozilla.org/ja/docs/Web/API/Node) を親要素にアタッチすることができ、すべてのユースケースに最適です。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 `test` アカウントを使ってログインしてみると、ダッシュボード上にトランザクションリストが表示されるはずです 🎉。
 
@@ -317,11 +321,19 @@ function updateElement(id, textOrNode) {
 
 ## 🚀 チャレンジ
 
+<<<<<<< HEAD
 ダッシュボードページを実際の銀行アプリのように見せるために一緒に作業しましょう。すでにアプリのスタイルを設定している場合は、[メディアクエリ](https://developer.mozilla.org/ja/docs/Web/CSS/Media_queries)を使用して、デスクトップとモバイルデバイスの両方でうまく機能する[レスポンシブデザイン](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks)を作成してみてください。
 
 ダッシュボードページのスタイリング例です。
 
 ![スタイリング後のダッシュボードの結果例のスクリーンショット](../images/screen2.png)
+=======
+ダッシュボードページを実際の銀行アプリのように見せるために一緒に作業しましょう。すでにアプリのスタイルを設定している場合は、[メディアクエリ](https://developer.mozilla.org/ja/docs/Web/CSS/Media_queries)を使用して、デスクトップとモバイルデバイスの両方でうまく機能する[レスポンシブデザイン](https://developer.mozilla.org/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks)を作成してみてください。
+
+ダッシュボードページのスタイリング例です。
+
+![スタイリング後のダッシュボードの結果例のスクリーンショット](../../images/screen2.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## レッスン後の小テスト
 

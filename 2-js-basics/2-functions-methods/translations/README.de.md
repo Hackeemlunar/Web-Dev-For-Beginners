@@ -101,7 +101,11 @@ displayGreeting('Christopher', 'Hi');
 
 ## Rückgabewerte
 
+<<<<<<< HEAD
 Bisher wurde die von uns erstellte Funktion immer an die [Konsole](https://developer.mozilla.org/en-US/docs/Web/API/console) ausgegeben. Manchmal kann dies genau das sein, wonach wir suchen, insbesondere wenn wir Funktionen erstellen, die andere Dienste aufrufen. Was aber, wenn ich eine Hilfsfunktion erstellen möchte, um eine Berechnung durchzuführen und den Wert zurückzugeben, damit ich ihn an anderer Stelle verwenden kann?
+=======
+Bisher wurde die von uns erstellte Funktion immer an die [Konsole](https://developer.mozilla.org/docs/Web/API/console) ausgegeben. Manchmal kann dies genau das sein, wonach wir suchen, insbesondere wenn wir Funktionen erstellen, die andere Dienste aufrufen. Was aber, wenn ich eine Hilfsfunktion erstellen möchte, um eine Berechnung durchzuführen und den Wert zurückzugeben, damit ich ihn an anderer Stelle verwenden kann?
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Wir können dies tun, indem wir einen **Rückgabewert** verwenden. Ein Rückgabewert wird von der Funktion zurückgegeben und kann in einer Variablen genauso gespeichert werden, wie wir einen Literalwert wie eine Zeichenfolge oder eine Zahl speichern könnten.
 
@@ -131,7 +135,11 @@ const greetingMessage = createGreetingMessage('Christopher');
 
 Im Laufe Ihrer Programmierkarriere werden Sie auf Funktionen stoßen, die Funktionen als Parameter akzeptieren. Dieser nette Trick wird häufig verwendet, wenn wir nicht wissen, wann etwas eintreten oder abgeschlossen sein wird, aber wir wissen, dass wir als Reaktion darauf eine Operation ausführen müssen.
 
+<<<<<<< HEAD
 Betrachten Sie als Beispiel [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), das einen Timer startet und nach dessen Ausführung Code ausführt. Wir müssen ihm sagen, welchen Code wir ausführen wollen. Klingt nach einem perfekten Job für eine Veranstaltung!
+=======
+Betrachten Sie als Beispiel [setTimeout](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), das einen Timer startet und nach dessen Ausführung Code ausführt. Wir müssen ihm sagen, welchen Code wir ausführen wollen. Klingt nach einem perfekten Job für eine Veranstaltung!
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Wenn Sie den folgenden Code ausführen, wird nach 3 Sekunden die Meldung **3 Sekunden sind verstrichen** angezeigt.
 
@@ -188,7 +196,11 @@ Können Sie den Unterschied zwischen Funktionen und Methoden in einem Satz artik
 
 ## Review & Selbststudium
 
+<<<<<<< HEAD
 Es lohnt sich, [etwas mehr über Pfeilfunktionen zu lesen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), da diese zunehmend in Codebasen verwendet werden. Üben Sie, eine Funktion zu schreiben und sie dann mit dieser Syntax neu zu schreiben.
+=======
+Es lohnt sich, [etwas mehr über Pfeilfunktionen zu lesen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions), da diese zunehmend in Codebasen verwendet werden. Üben Sie, eine Funktion zu schreiben und sie dann mit dieser Syntax neu zu schreiben.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Zuordnung
 

@@ -1,10 +1,18 @@
 # JavaScript 기초: 결정하기
 
+<<<<<<< HEAD
 ![JavaScript Basics - Making decisions](../images/webdev101-js-decisions.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 강의 전 퀴즈
 [Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/11&loc=ko)
+=======
+![JavaScript Basics - Making decisions](/sketchnotes/webdev101-js-decisions.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+
+## 강의 전 퀴즈
+[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/11?loc=ko)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 결정을 내리고 코드가 실행되는 순서를 제어하면 코드를 재사용하며 강력하게 만들 수 있습니다. 이 강의에서는 JavaScript에서 데이터 흐름을 제어하기 위한 구문과 논리 자료형 데이터 타입을 함께 사용하는 중요성을 다룹니다.
 
@@ -164,7 +172,11 @@ if (firstNumber > secondNumber) {
 
 ## 리뷰 & 자기주도 학습
 
+<<<<<<< HEAD
 [MDN에서](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) 사용할 수 있는 많은 연산자에 대해 자세히 알아보십시오.
+=======
+[MDN에서](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators) 사용할 수 있는 많은 연산자에 대해 자세히 알아보십시오.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Josh Comeau'의 wonderful [operator lookup](https://joshwcomeau.com/operator-lookup/)을 통할 수 있습니다!
 

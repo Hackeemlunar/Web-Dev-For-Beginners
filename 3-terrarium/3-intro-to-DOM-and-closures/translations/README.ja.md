@@ -1,6 +1,10 @@
 # テラリウムプロジェクト その3: DOM の操作とクロージャ
 
+<<<<<<< HEAD
 ![DOM and a closure](images/webdev101-js.png)
+=======
+![DOM and a closure](/sketchnotes/webdev101-js.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト
@@ -19,7 +23,11 @@ DOM (Document Object Model) を操作することは、Web  開発の重要な�
 
 DOM をツリーと考え、Web ページのドキュメントを操作できるすべての方法を表しています。様々な API (Application Program Interfaces) が書かれており、プログラマーが自分の好きなプログラミング言語を使って DOM にアクセスし、編集、変更、再配置、その他の管理ができるようになっています。
 
+<<<<<<< HEAD
 ![DOM tree representation](./images/dom-tree.png)
+=======
+![DOM tree representation](../images/dom-tree.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > DOM とそれを参照する HTML マークアップの表現。[Olfa Nasraoui](https://www.researchgate.net/publication/221417012_Profile-Based_Focused_Crawler_for_Social_Media-Sharing_Websites) より
 
@@ -34,7 +42,11 @@ DOM をツリーと考え、Web ページのドキュメントを操作できる
 terrarium フォルダ内に `script.js` というファイルを作成します。このファイルを `<head>` セクションにインポートします。
 
 ```html
+<<<<<<< HEAD
 	<script src="./script.js" defer></script>
+=======
+<script src="./script.js" defer></script>
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 ```
 
 > 注: HTML ファイルが完全に読み込まれた後にのみ JavaScript を実行できるようにするために、外部の JavaScript ファイルを HTML ファイルにインポートする際には `defer` を使用してください。また、`async` 属性を使用することもできます。これは HTML ファイルのパース中にスクリプトを実行できるようにしますが、私たちの場合は、ドラッグスクリプトを実行する前に HTML 要素を完全に利用できるようにしておくことが重要です。
@@ -46,7 +58,11 @@ terrarium フォルダ内に `script.js` というファイルを作成します
 
 ### タスク
 
+<<<<<<< HEAD
 ```html
+=======
+```javascript
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
 dragElement(document.getElementById('plant3'));
@@ -141,7 +157,11 @@ function pointerDrag(e) {
 
 `pos4 = e.clientY` の下にポインタイベントの操作を2つ追加して、初期関数を完成させます。
 
+<<<<<<< HEAD
 ```html
+=======
+```javascript
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 document.onpointermove = elementDrag;
 document.onpointerup = stopElementDrag;
 ```
@@ -191,7 +211,11 @@ function stopElementDrag() {
 
 これでプロジェクトが完成しました!
 
+<<<<<<< HEAD
 🥇おめでとうございます。素敵なテラリウムが完成しましたね。 ![finished terrarium](./images/terrarium-final.png)
+=======
+🥇おめでとうございます。素敵なテラリウムが完成しましたね。 ![finished terrarium](../images/terrarium-final.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 

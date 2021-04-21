@@ -1,6 +1,10 @@
 # Nozioni di base su JavaScript: Prendere Decisioni
 
+<<<<<<< HEAD
 ![Nozioni di base su JavaScript - Prendere decisioni](../images/webdev101-js-decisions.png)
+=======
+![Nozioni di base su JavaScript - Prendere decisioni](/sketchnotes/webdev101-js-decisions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-Lezione
@@ -162,7 +166,11 @@ Creare un programma che viene scritto prima con operatori logici, quindi riscriv
 
 ---
 ## Quiz Post-Lezione
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/12?loc=12)
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/12?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Revisione e Auto Apprendimento
 

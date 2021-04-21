@@ -5,10 +5,24 @@
       <label for="locale">locale</label>
       <select v-model="locale">
         <option>en</option>
+<<<<<<< HEAD
         <option>ko</option>
         <option>id</option>
         <option>hi</option>
         <option>it</option>
+=======
+        <option>es</option>
+        <option>gr</option>
+        <option>hi</option>
+        <option>id</option>
+        <option>it</option>
+        <option>ko</option>
+        <option>ms</option>
+        <option>nl</option>
+        <option>zh_cn</option>
+        <option>zh_tw</option>
+
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
       </select>
     </nav>
     <div id="app">

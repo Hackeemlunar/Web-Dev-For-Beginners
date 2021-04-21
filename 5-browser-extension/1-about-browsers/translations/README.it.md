@@ -1,11 +1,19 @@
 # Progetto di Estensione del Browser Parte 1: Tutto sui Browser
 
+<<<<<<< HEAD
 ![schizzo di un browser](../images/sketchnote.jpg)
+=======
+![schizzo di un browser](/sketchnotes/browser.jpg)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
 
 ## Quiz Pre-Lezione
 
+<<<<<<< HEAD
 [Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/23)
+=======
+[Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/23?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Introduzione
 
@@ -152,7 +160,11 @@ Si dia un'occhiata alle estensioni del browser in uno store e se ne installi una
 
 ## Quiz Post-Lezione
 
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/24)
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/24?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Revisione e Auto Apprendimento
 

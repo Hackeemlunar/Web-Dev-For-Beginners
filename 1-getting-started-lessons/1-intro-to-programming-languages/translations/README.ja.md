@@ -4,7 +4,11 @@
 ここで取り上げた特徴は、最新のプログラミング言語のほとんどに当てはまります。
 次にツールセクションでは、開発者にとって有用なソフトウェアを紹介します。
 
+<<<<<<< HEAD
 ![Intro Programming](../webdev101-programming.png)
+=======
+![Intro Programming](/sketchnotes/webdev101-programming.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 事前クイズ
@@ -88,7 +92,11 @@ back add r0,r1
 信じられないかもしれませんが、両者は同じ処理をしています。
 いずれもフィボナッチ数を順番に10個出力します。
 
+<<<<<<< HEAD
 ✅ [フィボナッチ数](https://en.wikipedia.org/wiki/Fibonacci_number)とは、各数がその手前の二つの値の和である値の集合です。
+=======
+✅ [フィボナッチ数](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%9C%E3%83%8A%E3%83%83%E3%83%81%E6%95%B0)とは、各数がその手前の二つの値の和である値の集合です。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## プログラムの基本要素
 
@@ -244,4 +252,8 @@ COBOLとGoについては？
 
 ## 課題
 
+<<<<<<< HEAD
 [assignment.md](assignment.ja.md)
+=======
+[ドキュメントを読む](assignment.ja.md)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a

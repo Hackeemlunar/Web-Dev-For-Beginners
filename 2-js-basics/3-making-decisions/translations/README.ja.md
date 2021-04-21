@@ -1,6 +1,10 @@
 # JavaScript の基本: 意思決定
 
+<<<<<<< HEAD
 ![JavaScript Basics - Making decisions](images/webdev101-js-decisions.png)
+=======
+![JavaScript Basics - Making decisions](/sketchnotes/webdev101-js-decisions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト

@@ -1,6 +1,10 @@
 # JavaScript の基本: メソッドと関数
 
+<<<<<<< HEAD
 ![JavaScript Basics - Functions](images/webdev101-js-functions.png)
+=======
+![JavaScript Basics - Functions](/sketchnotes/webdev101-js-functions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト

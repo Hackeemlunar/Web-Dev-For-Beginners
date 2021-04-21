@@ -1,6 +1,10 @@
 # Terrarium Project Parte 2: Introducción a CSS
 
+<<<<<<< HEAD
 ![Introducción a CSS](../images/webdev101-css.png)
+=======
+![Introducción a CSS](/sketchnotes/webdev101-css.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## [Pre-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/17)
@@ -192,7 +196,11 @@ Primero, diseñe los elementos secundarios `.terrarium` div como un rectángulo 
 	height: 80%;
 	width: 60%;
 	background: #d1e1df;
+<<<<<<< HEAD
 	border-radius: 10%;
+=======
+	border-radius: 1rem;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	position: absolute;
 	bottom: 0.5%;
 	left: 20%;
@@ -222,6 +230,7 @@ Primero, diseñe los elementos secundarios `.terrarium` div como un rectángulo 
 }
 
 .dirt {
+<<<<<<< HEAD
 	width: 58%;
 	height: 5%;
 	background: #3a241d;
@@ -229,12 +238,25 @@ Primero, diseñe los elementos secundarios `.terrarium` div como un rectángulo 
 	border-radius: 0 0 4rem 4rem;
 	bottom: 1%;
 	left: 21%;
+=======
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	opacity: 0.7;
 	z-index: -1;
 }
 ```
 
+<<<<<<< HEAD
 Tenga en cuenta el uso de porcentajes aquí, incluso para el `border-radius`. Si reduce la escala de su navegador, también puede ver cómo se escalan las esquinas del frasco. Observe también los porcentajes de ancho y alto de los elementos del tarro y cómo cada elemento está absolutamente posicionado en el centro, fijado a la parte inferior de la ventana gráfica.
+=======
+Tenga en cuenta el uso de porcentajes aquí. Si reduce la escala de su navegador, también puede ver cómo se escalan las esquinas del frasco. Observe también los porcentajes de ancho y alto de los elementos del tarro y cómo cada elemento está absolutamente posicionado en el centro, fijado a la parte inferior de la ventana gráfica.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ Intente cambiar los colores y la opacidad del frasco frente a los de la suciedad. ¿Lo que pasa? ¿Por qué?
 
@@ -252,4 +274,8 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 
 **Asignación**: [Refactorización CSS](assignment.es.md)
 
+<<<<<<< HEAD
 [Diseñe su aplicación HTML con CSS](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
+=======
+[Diseñe su aplicación HTML con CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a

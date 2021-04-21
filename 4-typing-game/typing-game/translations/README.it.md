@@ -2,7 +2,11 @@
 
 ## Quiz Pre-Lezione
 
+<<<<<<< HEAD
 [Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/21)
+=======
+[Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/21?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Programmazione guidata dagli eventi
 
@@ -20,10 +24,17 @@ Per gestire gli eventi (clic sul pulsante, digitazione, ecc.), si registrano gli
 
 Ci sono [dozzine di eventi](https://developer.mozilla.org/docs/Web/Events) disponibili da ascoltare quando si crea un'applicazione. Fondamentalmente qualsiasi cosa un utente fa su una pagina genera un evento, il che dà molto potere allo sviluppatore per assicurarsi che egli ottenga l'esperienza che desidera. Fortunatamente, in genere si avrà solo bisogno di una piccola manciata di eventi. Eccone alcuni comuni (inclusi i due che verranno usati durante la creazione del gioco):
 
+<<<<<<< HEAD
 - [clic](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event): l'utente ha fatto clic su qualcosa, in genere un pulsante o un collegamento ipertestuale
 - [contextmenu](https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event): l'utente ha fatto clic con il pulsante destro del mouse
 - [select](https://developer.mozilla.org/en-US/docs/Web/API/Element/select_event): l'utente ha evidenziato del testo
 - [input](https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event): l'utente ha inserito del testo
+=======
+- [clic](https://developer.mozilla.org/docs/Web/API/Element/click_event): l'utente ha fatto clic su qualcosa, in genere un pulsante o un collegamento ipertestuale
+- [contextmenu](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event): l'utente ha fatto clic con il pulsante destro del mouse
+- [select](https://developer.mozilla.org/docs/Web/API/Element/select_event): l'utente ha evidenziato del testo
+- [input](https://developer.mozilla.org/docs/Web/API/Element/input_event): l'utente ha inserito del testo
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Creare il gioco
 
@@ -328,11 +339,19 @@ Aggiungere più funzionalità
 
 ## Quiz Post-Lezione
 
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/22)
 
 ## Revisione e Auto Apprendimento
 
 Informarsi su [tutti gli eventi disponibili](https://developer.mozilla.org/en-US/docs/Web/Events) per lo sviluppatore tramite il browser web e considerare gli scenari nei quali si userebbe ciascuno di essi.
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/22?loc=it)
+
+## Revisione e Auto Apprendimento
+
+Informarsi su [tutti gli eventi disponibili](https://developer.mozilla.org/docs/Web/Events) per lo sviluppatore tramite il browser web e considerare gli scenari nei quali si userebbe ciascuno di essi.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Compito
 

@@ -8,6 +8,7 @@ Edge、Chrome、Firefox で動作するブラウザ拡張機能を構築しま�
 
 ### トピック
 
+<<<<<<< HEAD
 1. [ブラウザについて](1-about-browsers/translations/README.ja.md)
 2. [フォームとローカルストレージ](2-forms-browsers-local-storage/translations/README.ja.md)
 3. [バックグラウンドタスクとパフォーマンス](3-background-tasks-and-performance/translations/README.ja.md)
@@ -15,6 +16,15 @@ Edge、Chrome、Firefox で動作するブラウザ拡張機能を構築しま�
 ### クレジット
 
 ![a green browser extension](extension-screenshot.png)
+=======
+1. [ブラウザのすべて](../1-about-browsers/translations/README.ja.md)
+2. [API の呼び出し、ローカルストレージの使用](../2-forms-browsers-local-storage/translations/README.ja.md)
+3. [バックグラウンドタスクとパフォーマンスについて学ぶ](../3-background-tasks-and-performance/translations/README.ja.md)
+
+### クレジット
+
+![a green browser extension](../extension-screenshot.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## クレジット
 

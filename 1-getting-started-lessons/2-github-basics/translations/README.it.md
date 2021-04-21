@@ -2,7 +2,11 @@
 
 Questa lezione tratta delle basi di GitHub, una piattaforma per ospitare e gestire modifiche al proprio codice.
 
+<<<<<<< HEAD
 ![Intro to GitHub](../images/webdev101-github.png)
+=======
+![Intro to GitHub](/sketchnotes/webdev101-github.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-lezione

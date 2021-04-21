@@ -1,6 +1,10 @@
 # テラリウムプロジェクト その1: HTML 入門
 
+<<<<<<< HEAD
 ![Introduction to HTML](images/webdev101-html.png)
+=======
+![Introduction to HTML](/sketchnotes/webdev101-html.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト
@@ -17,7 +21,11 @@ HTML (HyperText Markup Language) は、Web の「骨格」です。CSS が HTML 
 
 コンピュータ上に 'terrarium' というフォルダを作成し、その中に 'index.html' というファイルを作成します。テラリウムのフォルダを作成した後、Visual Studio Code で新しい VS Code ウィンドウを開き、「フォルダを開く」をクリックして新しいフォルダに移動することで、この作業を行うことができます。エクスプローラペインの「ファイル」ボタンをクリックして、新しいファイルを作成してください。
 
+<<<<<<< HEAD
 ![explorer in VS Code](images/vs-code-index.png)
+=======
+![explorer in VS Code](../images/vs-code-index.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 もしくは
 
@@ -75,7 +83,11 @@ HTML ドキュメントの 'head' 領域には、Web ページに関する重要
 </head>
 ```
 
+<<<<<<< HEAD
 ✅ このように viewport の meta タグを設定するとどうなるでしょうか: `<meta name="viewport" content="width=600">`? [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) についてはこちらをご覧ください。
+=======
+✅ このように viewport の meta タグを設定するとどうなるでしょうか: `<meta name="viewport" content="width=600">`? [viewport](https://developer.mozilla.org/docs/Mozilla/Mobile/Viewport_meta_tag) についてはこちらをご覧ください。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 

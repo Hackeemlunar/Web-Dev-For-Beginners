@@ -29,11 +29,19 @@ Laman web tradisional mengemas kini kandungan yang dipaparkan ketika pengguna me
 
 ![Kemas kini aliran kerja dalam aplikasi berbilang halaman](./images/mpa.png)
 
+<<<<<<< HEAD
 Ketika aplikasi web mula menjadi lebih kompleks dan interaktif, teknik baru yang disebut [AJAX (Asynchronous JavaScript and XML)](https://en.wikipedia.org/wiki/Ajax_(programming)) muncul. Teknik ini membolehkan aplikasi web mengirim dan mengambil data dari pelayan secara asinkron menggunakan JavaScript, tanpa harus memuat semula halaman HTML, menghasilkan kemas kini yang lebih cepat dan interaksi pengguna yang lebih lancar. Apabila data baru diterima dari pelayan, halaman HTML semasa juga dapat diperbarui dengan JavaScript menggunakan API [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Dari masa ke masa, pendekatan ini telah berkembang menjadi apa yang sekarang disebut [*Aplikasi Halaman Tunggal* atau *SPA*](https://en.wikipedia.org/wiki/Single-page_application).
 
 ![Kemas kini alur kerja dalam aplikasi satu halaman](./images/spa.png)
 
 Semasa AJAX pertama kali diperkenalkan, satu-satunya API yang tersedia untuk mengambil data secara asinkron adalah [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest). Tetapi penyemak imbas moden kini juga melaksanakan [`Fetch` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), yang menggunakan janji dan lebih sesuai untuk dimanipulasi Data JSON.
+=======
+Ketika aplikasi web mula menjadi lebih kompleks dan interaktif, teknik baru yang disebut [AJAX (Asynchronous JavaScript and XML)](https://en.wikipedia.org/wiki/Ajax_(programming)) muncul. Teknik ini membolehkan aplikasi web mengirim dan mengambil data dari pelayan secara asinkron menggunakan JavaScript, tanpa harus memuat semula halaman HTML, menghasilkan kemas kini yang lebih cepat dan interaksi pengguna yang lebih lancar. Apabila data baru diterima dari pelayan, halaman HTML semasa juga dapat diperbarui dengan JavaScript menggunakan API [DOM](https://developer.mozilla.org/docs/Web/API/Document_Object_Model). Dari masa ke masa, pendekatan ini telah berkembang menjadi apa yang sekarang disebut [*Aplikasi Halaman Tunggal* atau *SPA*](https://en.wikipedia.org/wiki/Single-page_application).
+
+![Kemas kini alur kerja dalam aplikasi satu halaman](./images/spa.png)
+
+Semasa AJAX pertama kali diperkenalkan, satu-satunya API yang tersedia untuk mengambil data secara asinkron adalah [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest). Tetapi penyemak imbas moden kini juga melaksanakan [`Fetch` API](https://developer.mozilla.org/docs/Web/API/Fetch_API), yang menggunakan janji dan lebih sesuai untuk dimanipulasi Data JSON.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Walaupun semua penyemak imbas moden menyokong `Fetch API`, jika anda mahu aplikasi web anda berfungsi pada penyemak imbas lama atau penyemak imbas lama, sebaiknya periksa [jadual keserasian di caniuse.com](https://caniuse.com/fetch) pertama.
 
@@ -63,7 +71,11 @@ async function getAccount(user) {
 }
 ```
 
+<<<<<<< HEAD
 Kami menggunakan API `fetch` untuk meminta data secara tidak serentak dari pelayan, tetapi kali ini kami tidak memerlukan parameter tambahan selain URL untuk dipanggil, kerana kami hanya meminta data. Secara lalai, `fetch` membuat permintaan HTTP [`GET`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET), itulah yang kami cari di sini.
+=======
+Kami menggunakan API `fetch` untuk meminta data secara tidak serentak dari pelayan, tetapi kali ini kami tidak memerlukan parameter tambahan selain URL untuk dipanggil, kerana kami hanya meminta data. Secara lalai, `fetch` membuat permintaan HTTP [`GET`](https://developer.mozilla.org/docs/Web/HTTP/Methods/GET), itulah yang kami cari di sini.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ `encodeURIComponent()` adalah fungsi yang melarikan diri daripada watak khas untuk URL. Masalah apa yang mungkin kita hadapi jika kita tidak memanggil fungsi ini dan menggunakan nilai `pengguna` secara langsung di URL?
 
@@ -109,19 +121,33 @@ account = result;
 navigate('/dashboard');
 ```
 
+<<<<<<< HEAD
 ✅ Tahukah anda bahawa secara lalai, anda hanya dapat memanggil API pelayan dari *domain dan port yang sama* daripada halaman web yang anda lihat? Ini adalah mekanisme keselamatan yang dikuatkuasakan oleh penyemak imbas. Tetapi tunggu, aplikasi web kami berjalan di `localhost: 3000` sedangkan API pelayan berjalan di `localhost: 5000`, mengapa ia berfungsi? Dengan menggunakan teknik yang disebut [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), adalah mungkin untuk melakukan permintaan HTTP bersilang asal jika pelayan menambah tajuk khas untuk respons, yang memungkinkan pengecualian untuk domain tertentu.
 
 > Ketahui lebih lanjut mengenai API dengan mengambil [pelajaran](https://docs.microsoft.com/en-us/learn/modules/use-apis-discover-museum-art?WT.mc_id=academic-13441-cxa)
+=======
+✅ Tahukah anda bahawa secara lalai, anda hanya dapat memanggil API pelayan dari *domain dan port yang sama* daripada halaman web yang anda lihat? Ini adalah mekanisme keselamatan yang dikuatkuasakan oleh penyemak imbas. Tetapi tunggu, aplikasi web kami berjalan di `localhost: 3000` sedangkan API pelayan berjalan di `localhost: 5000`, mengapa ia berfungsi? Dengan menggunakan teknik yang disebut [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS), adalah mungkin untuk melakukan permintaan HTTP bersilang asal jika pelayan menambah tajuk khas untuk respons, yang memungkinkan pengecualian untuk domain tertentu.
+
+> Ketahui lebih lanjut mengenai API dengan mengambil [pelajaran](https://docs.microsoft.com/learn/modules/use-apis-discover-museum-art?WT.mc_id=academic-13441-cxa)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Kemas kini HTML untuk memaparkan data
 
 Sekarang kita mempunyai data pengguna, kita harus mengemas kini HTML yang ada untuk memaparkannya. Kami sudah tahu cara mendapatkan elemen dari DOM menggunakan contohnya `document.getElementById()`. Setelah anda mempunyai elemen asas, berikut adalah beberapa API yang boleh anda gunakan untuk mengubahnya atau menambahkan elemen anak padanya:
 
+<<<<<<< HEAD
 - Dengan menggunakan sifat [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent), anda boleh mengubah teks elemen. Perhatikan bahawa mengubah nilai ini akan membuang semua anak elemen (jika ada) dan menggantinya dengan teks yang disediakan. Oleh itu, ini juga kaedah yang berkesan untuk membuang semua anak dari elemen tertentu dengan memberikan string kosong "" kepadanya.
 
 - Menggunakan [`document.createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/DocumentcreateElement) bersama dengan [`append()`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) kaedah anda boleh membuat dan melampirkan satu atau lebih elemen anak baru.
 
 ✅ Menggunakan sifat [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) elemen juga mungkin untuk mengubah kandungan HTMLnya, tetapi yang ini harus dielakkan kerana terdedah kepada serangan [cross-site scripting (XSS)](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting) serangan.
+=======
+- Dengan menggunakan sifat [`textContent`](https://developer.mozilla.org/docs/Web/API/Node/textContent), anda boleh mengubah teks elemen. Perhatikan bahawa mengubah nilai ini akan membuang semua anak elemen (jika ada) dan menggantinya dengan teks yang disediakan. Oleh itu, ini juga kaedah yang berkesan untuk membuang semua anak dari elemen tertentu dengan memberikan string kosong "" kepadanya.
+
+- Menggunakan [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/DocumentcreateElement) bersama dengan [`append()`](https://developer.mozilla.org/docs/Web/API/ParentNode/append) kaedah anda boleh membuat dan melampirkan satu atau lebih elemen anak baru.
+
+✅ Menggunakan sifat [`innerHTML`](https://developer.mozilla.org/docs/Web/API/Element/innerHTML) elemen juga mungkin untuk mengubah kandungan HTMLnya, tetapi yang ini harus dielakkan kerana terdedah kepada serangan [cross-site scripting (XSS)](https://developer.mozilla.org/docs/Glossary/Cross-site_scripting) serangan.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Tugas
 
@@ -159,7 +185,11 @@ Sekiranya anda cuba log masuk dengan akaun yang tidak sah, anda akan melihat sep
 
 ![Tangkapan skrin yang menunjukkan mesej ralat yang ditunjukkan semasa log masuk](../images/login-error.png)
 
+<<<<<<< HEAD
 Sekarang kita mempunyai teks ralat yang muncul secara visual, tetapi jika anda mencubanya dengan pembaca skrin, anda akan melihat bahawa tidak ada yang diumumkan. Agar teks yang ditambahkan secara dinamis ke halaman diumumkan oleh pembaca skrin, ia perlu menggunakan sesuatu yang disebut [Live Region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions). Di sini kita akan menggunakan jenis kawasan langsung yang disebut amaran:
+=======
+Sekarang kita mempunyai teks ralat yang muncul secara visual, tetapi jika anda mencubanya dengan pembaca skrin, anda akan melihat bahawa tidak ada yang diumumkan. Agar teks yang ditambahkan secara dinamis ke halaman diumumkan oleh pembaca skrin, ia perlu menggunakan sesuatu yang disebut [Live Region](https://developer.mozilla.org/docs/Web/Accessibility/ARIA/ARIA_Live_Regions). Di sini kita akan menggunakan jenis kawasan langsung yang disebut amaran:
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ```html
 <div id="loginError" role="alert"></div>
@@ -223,7 +253,11 @@ function updateDashboard() {
 
 Pertama, kami memeriksa bahawa kami mempunyai data akaun yang kami perlukan sebelum melangkah lebih jauh. Kemudian kami menggunakan fungsi `updateElement()` yang kami buat sebelumnya untuk mengemas kini HTML.
 
+<<<<<<< HEAD
 > Untuk menjadikan paparan keseimbangan lebih cantik, kami menggunakan kaedah [`toFixed(2)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed) untuk daya memaparkan nilai dengan 2 digit selepas titik perpuluhan.
+=======
+> Untuk menjadikan paparan keseimbangan lebih cantik, kami menggunakan kaedah [`toFixed(2)`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed) untuk daya memaparkan nilai dengan 2 digit selepas titik perpuluhan.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Sekarang kita perlu memanggil fungsi `updateDashboard()` setiap kali papan pemuka dimuat. Sekiranya anda sudah menyelesaikan [tugasan 1](../1-template-route/assignment.md) ini harus dilakukan dengan mudah, jika tidak, anda boleh menggunakan pelaksanaan berikut.
 
@@ -248,7 +282,11 @@ Dengan perubahan ini, setiap kali halaman dashboard ditampilkan, fungsi `updateD
 
 ## Buat baris jadual secara dinamik dengan templat HTML
 
+<<<<<<< HEAD
 Dalam [first lesson](../1-template-route/README.md) kami menggunakan templat HTML bersama dengan [`appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) kaedah untuk melaksanakan navigasi di aplikasi kami. Templat juga dapat lebih kecil dan digunakan untuk mengisi bahagian halaman yang berulang secara dinamis.
+=======
+Dalam [first lesson](../1-template-route/README.md) kami menggunakan templat HTML bersama dengan [`appendChild()`](https://developer.mozilla.org/docs/Web/API/Node/appendChild) kaedah untuk melaksanakan navigasi di aplikasi kami. Templat juga dapat lebih kecil dan digunakan untuk mengisi bahagian halaman yang berulang secara dinamis.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Kami akan menggunakan pendekatan yang serupa untuk memaparkan senarai transaksi dalam jadual HTML.
 
@@ -299,7 +337,11 @@ for (const transaction of account.transactions) {
 updateElement('transactions', transactionsRows);
 ```
 
+<<<<<<< HEAD
 Di sini kita menggunakan kaedah [`document.createDocumentFragment()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment) yang membuat serpihan DOM baru yang boleh kita gunakan , sebelum akhirnya melampirkannya ke jadual HTML kami.
+=======
+Di sini kita menggunakan kaedah [`document.createDocumentFragment()`](https://developer.mozilla.org/docs/Web/API/Document/createDocumentFragment) yang membuat serpihan DOM baru yang boleh kita gunakan , sebelum akhirnya melampirkannya ke jadual HTML kami.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Masih ada satu perkara lagi yang harus kita lakukan sebelum kod ini dapat berfungsi, kerana fungsi `updateElement()` kami pada masa ini hanya menyokong kandungan teks. Mari ubah kodnya sedikit:
 
@@ -311,7 +353,11 @@ function updateElement(id, textOrNode) {
 }
 ```
 
+<<<<<<< HEAD
 Kami menggunakan kaedah [`append()`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) kerana ia membolehkan melampirkan teks atau [DOM Nodes] (https : //developer.mozilla.org/en-US/docs/Web/API/Node) ke elemen induk, yang sangat sesuai untuk semua kes penggunaan kami.
+=======
+Kami menggunakan kaedah [`append()`](https://developer.mozilla.org/docs/Web/API/ParentNode/append) kerana ia membolehkan melampirkan teks atau [DOM Nodes] (https : //developer.mozilla.org/docs/Web/API/Node) ke elemen induk, yang sangat sesuai untuk semua kes penggunaan kami.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Sekiranya anda cuba menggunakan akaun `test` untuk log masuk, kini anda akan melihat senarai transaksi di papan pemuka 🎉.
 
@@ -319,7 +365,11 @@ Sekiranya anda cuba menggunakan akaun `test` untuk log masuk, kini anda akan mel
 
 ## 🚀 Cabaran
 
+<<<<<<< HEAD
 Bekerjasama untuk menjadikan halaman papan pemuka kelihatan seperti aplikasi perbankan sebenar. Sekiranya anda sudah menggayakan aplikasi anda, cuba gunakan [pertanyaan media](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) untuk membuat [responsive design](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks) berfungsi dengan baik pada kedua-dua desktop dan peranti mudah alih.
+=======
+Bekerjasama untuk menjadikan halaman papan pemuka kelihatan seperti aplikasi perbankan sebenar. Sekiranya anda sudah menggayakan aplikasi anda, cuba gunakan [pertanyaan media](https://developer.mozilla.org/docs/Web/CSS/Media_Queries) untuk membuat [responsive design](https://developer.mozilla.org/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks) berfungsi dengan baik pada kedua-dua desktop dan peranti mudah alih.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Berikut adalah contoh halaman papan pemuka yang digayakan:
 

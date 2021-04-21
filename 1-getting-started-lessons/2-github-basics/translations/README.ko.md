@@ -2,7 +2,11 @@
 
 이 강의에서는 코드 변경점을 호스팅하고 관리하는 플랫폼인 GitHub의 기본 사항을 다룹니다.
 
+<<<<<<< HEAD
 ![Intro to GitHub](../images/webdev101-github.png)
+=======
+![Intro to GitHub](/sketchnotes/webdev101-github.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 강의 전 퀴즈

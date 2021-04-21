@@ -6,7 +6,11 @@ A nuestra aplicación bancaria todavía le falta una característica importante:
 Utilizando todo lo que ha aprendido en las cuatro lecciones anteriores, implemente un cuadro de diálogo "Agregar transacción":
 
 - Agregue un botón "Agregar transacción" en la página del panel
+<<<<<<< HEAD
 - Cree una nueva página con una plantilla HTML o use JavaScript para mostrar / ocultar el cuadro de diálogo HTML sin salir de la página del tablero (puede usar [`hidden`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden) para eso, o clases CSS)
+=======
+- Cree una nueva página con una plantilla HTML o use JavaScript para mostrar / ocultar el cuadro de diálogo HTML sin salir de la página del tablero (puede usar [`hidden`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/hidden) para eso, o clases CSS)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 - Implementar un formulario HTML para recibir datos de entrada.
 - Cree datos JSON a partir de los datos del formulario y envíelos a la API
 - Actualiza la página del tablero con los nuevos datos.

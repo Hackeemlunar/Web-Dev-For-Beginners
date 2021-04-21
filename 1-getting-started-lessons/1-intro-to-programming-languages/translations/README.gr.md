@@ -2,11 +2,19 @@
 
 Αυτό το μάθημα καλύπτει τα βασικά των γλωσσών προγραμματισμού. Τα θέματα που καλύπτονται εδώ ισχύουν για τις περισσότερες σύγχρονες γλώσσες προγραμματισμού σήμερα. Στην ενότητα 'Εργαλεία του Εμπορίου', θα μάθετε για χρήσιμο λογισμικό που σας βοηθά ως προγραμματιστές.
 
+<<<<<<< HEAD
 ![Intro Programming](webdev101-programming.png)
 > Σκίτσο από [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
 [Pre-Lecture Quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
+=======
+![Intro Programming](/sketchnotes/webdev101-programming.png)
+> Σκίτσο από [Tomomi Imura](https://twitter.com/girlie_mac)
+
+## Pre-Lecture Quiz
+[Pre-Lecture Quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1?loc=gr)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Εισαγωγή
 
@@ -181,7 +189,11 @@ back add r0,r1
 Συγκρίνετε μερικές γλώσσες προγραμματισμού. Ποια είναι τα μοναδικά χαρακτηριστικά που έχει η JavaScript και δεν έχει η Java και το αντίστροφο; Τι γίνεται με τη COBOL εναντίον της Go;
 
 ## Post-Lecture Quiz
+<<<<<<< HEAD
 [Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
+=======
+[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2?loc=gr)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Review & Self Study 
 

@@ -1,6 +1,10 @@
 # Nozioni di base di JavaScript: Array e Cicli
 
+<<<<<<< HEAD
 ![Nozioni di base su JavaScript - Array](../images/webdev101-js-arrays.png)
+=======
+![Nozioni di base su JavaScript - Array](/sketchnotes/webdev101-js-arrays.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-Lezione
@@ -113,7 +117,11 @@ for (let i = 0; i < iceCreamFlavors.length; i++) {
 Esistono altri modi per eseguire un ciclo sugli array. diversi dai cicli for e while. Ci sono [forEach](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Statements/for...of) e [map](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Riscrivere il ciclo sull'array usando una di queste tecniche.
 
 ## Quiz Post-Lezione
+<<<<<<< HEAD
 [Quiz Post-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/14?loc=14)
+=======
+[Quiz Post-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/14?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 
 ## Revisione e Auto Apprendimento

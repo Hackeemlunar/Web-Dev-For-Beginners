@@ -1,6 +1,10 @@
 # Progetto Terrario Parte 1: Introduzione all'HTML
 
+<<<<<<< HEAD
 ![Introduzione all'HTML](../images/webdev101-html.png)
+=======
+![Introduzione all'HTML](/sketchnotes/webdev101-html.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-Lezione
@@ -49,13 +53,21 @@ Aggiungere queste righe all'inizio del file `index.html` :
 <html></html>
 ```
 
+<<<<<<< HEAD
 ✅ Ci sono alcune modalità differenti che possono essere determinate impostando DocType con una stringa di query: [Quirks Mode e Standards Mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode). Queste modalità supportano browser molto vecchi che non vengono normalmente utilizzati al giorno d'oggi (Netscape Navigator 4 e Internet Explorer 5). Ci si può attenere alla dichiarazione doctype standard.
+=======
+✅ Ci sono alcune modalità differenti che possono essere determinate impostando DocType con una stringa di query: [Quirks Mode e Standards Mode](https://developer.mozilla.org/docs/Web/HTML/Quirks_Mode_and_Standards_Mode). Queste modalità supportano browser molto vecchi che non vengono normalmente utilizzati al giorno d'oggi (Netscape Navigator 4 e Internet Explorer 5). Ci si può attenere alla dichiarazione doctype standard.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
 ## La "testa" del documento (tag head)
 
+<<<<<<< HEAD
 L'area "head" del documento HTML include informazioni cruciali sulla propria pagina web, note anche come [metadati](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta). In questo caso, si dice al server web a cui verrà inviata questa pagina per essere renderizzata, queste quattro cose:
+=======
+L'area "head" del documento HTML include informazioni cruciali sulla propria pagina web, note anche come [metadati](https://developer.mozilla.org/docs/Web/HTML/Element/meta). In questo caso, si dice al server web a cui verrà inviata questa pagina per essere renderizzata, queste quattro cose:
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 - il titolo della pagina
 - metadati della pagina tra cui:
@@ -76,7 +88,11 @@ Aggiungere un blocco "head" al proprio documento tra i tag di apertura e di chiu
 </head>
 ```
 
+<<<<<<< HEAD
 ✅ Cosa accadrebbe se il meta tag viewport viene impostato come questo: `<meta name="viewport" content="width=600">`? Ulteriori informazioni sul [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).
+=======
+✅ Cosa accadrebbe se il meta tag viewport viene impostato come questo: `<meta name="viewport" content="width=600">`? Ulteriori informazioni sul [viewport](https://developer.mozilla.org/docs/Mozilla/Mobile/Viewport_meta_tag).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
@@ -214,7 +230,11 @@ Aggiungere questo markup sopra l'ultimo tag `</div>`:
 
 ## 🚀 Sfida
 
+<<<<<<< HEAD
 Ci sono alcuni "vecchi" selvaggi tag in HTML con cui è ancora divertente giocare, anche se non si dovrebero usare tag deprecati come [questi tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) nel proprio markup. Tuttavia, si può usare il vecchio tag `<marquee>` per far scorrere orizzontalmente il titolo h1? (se viene fatto, non dimenticarsi di rimuoverlo dopo)
+=======
+Ci sono alcuni "vecchi" selvaggi tag in HTML con cui è ancora divertente giocare, anche se non si dovrebero usare tag deprecati come [questi tag](https://developer.mozilla.org/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) nel proprio markup. Tuttavia, si può usare il vecchio tag `<marquee>` per far scorrere orizzontalmente il titolo h1? (se viene fatto, non dimenticarsi di rimuoverlo dopo)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Quiz Post-Lezione
 

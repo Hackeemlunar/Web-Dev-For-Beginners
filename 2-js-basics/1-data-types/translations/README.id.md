@@ -1,6 +1,10 @@
 # Dasar-dasar JavaScript: Tipe Data
 
+<<<<<<< HEAD
 ![Dasar-dasar JavaScript - Tipe data](../images/webdev101-js-datatypes.png)
+=======
+![Dasar-dasar JavaScript - Tipe data](/sketchnotes/webdev101-js-datatypes.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Catatan sketsa oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -178,7 +182,11 @@ Boolean hanya dapat berupa dua nilai: `true` atau `false`. Boolean dapat membant
 - `let myTrueBool = true`
 - `let myFalseBool = false`
 
+<<<<<<< HEAD
 ✅ Variabel dapat dianggap 'benar (truthy)' jika dievaluasi ke boolean `true`. Menariknya, di JavaScript, [semua nilai adalah benar (truthy) kecuali jika didefinisikan sebagai salah](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+=======
+✅ Variabel dapat dianggap 'benar (truthy)' jika dievaluasi ke boolean `true`. Menariknya, di JavaScript, [semua nilai adalah benar (truthy) kecuali jika didefinisikan sebagai salah](https://developer.mozilla.org/docs/Glossary/Truthy).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 

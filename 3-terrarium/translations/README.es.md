@@ -20,7 +20,11 @@ La obra de arte fue dibujada a mano por [Jen Looper](http://jenlooper.com) usand
 
 La solución para elementos arrastrables se inspiró en la solución de w3schools para crear un [Elemento HTML arrastrable](https://www.w3schools.com/howto/howto_js_draggable.asp).
 
+<<<<<<< HEAD
 Encuentre más información sobre eventos de punteros en los [documentos del W3C](https://www.w3.org/TR/pointerevents1/) y en los [documentos web de MDN](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events).
+=======
+Encuentre más información sobre eventos de punteros en los [documentos del W3C](https://www.w3.org/TR/pointerevents1/) y en los [documentos web de MDN](https://developer.mozilla.org/docs/Web/API/Pointer_events).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Siempre verifique las capacidades del navegador usando [CanIUse.com](https://caniuse.com/).
 

@@ -1,6 +1,10 @@
 # Terrarium Project Part 1: Introduction to HTML
 
+<<<<<<< HEAD
 ![Introduction to HTML](images/webdev101-html.png)
+=======
+![Introduction to HTML](/sketchnotes/webdev101-html.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
@@ -48,13 +52,21 @@ Add these lines at the top of your `index.html` file:
 <html></html>
 ```
 
+<<<<<<< HEAD
 ✅ There are a few different modes that can be determined by setting the DocType with a query string: [Quirks Mode and Standards Mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode). These modes used to support really old browsers that aren't normally used nowadays (Netscape Navigator 4 and Internet Explorer 5). You can stick to the standard doctype declaration.
+=======
+✅ There are a few different modes that can be determined by setting the DocType with a query string: [Quirks Mode and Standards Mode](https://developer.mozilla.org/docs/Web/HTML/Quirks_Mode_and_Standards_Mode). These modes used to support really old browsers that aren't normally used nowadays (Netscape Navigator 4 and Internet Explorer 5). You can stick to the standard doctype declaration.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
 ## The document's 'head'
 
+<<<<<<< HEAD
 The 'head' area of the HTML document includes crucial information about your web page, also known as [metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta). In our case, we tell the web server to which this page will be sent to be rendered, these four things:
+=======
+The 'head' area of the HTML document includes crucial information about your web page, also known as [metadata](https://developer.mozilla.org/docs/Web/HTML/Element/meta). In our case, we tell the web server to which this page will be sent to be rendered, these four things:
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 -   the page's title
 -   page metadata including:
@@ -75,7 +87,11 @@ Add a 'head' block to your document in between the opening and closing `<html>` 
 </head>
 ```
 
+<<<<<<< HEAD
 ✅ What would happen if you set a viewport meta tag like this: `<meta name="viewport" content="width=600">`? Read more about the [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).
+=======
+✅ What would happen if you set a viewport meta tag like this: `<meta name="viewport" content="width=600">`? Read more about the [viewport](https://developer.mozilla.org/docs/Mozilla/Mobile/Viewport_meta_tag).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
@@ -213,7 +229,11 @@ Add this markup above the last `</div>` tag:
 
 ## 🚀Challenge
 
+<<<<<<< HEAD
 There are some wild 'older' tags in HTML that are still fun to play with, though you shouldn't use deprecated tags such as [these tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) in your markup. Still, can you use the old `<marquee>` tag to make the h1 title scroll horizontally? (if you do, don't forget to remove it afterwards)
+=======
+There are some wild 'older' tags in HTML that are still fun to play with, though you shouldn't use deprecated tags such as [these tags](https://developer.mozilla.org/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) in your markup. Still, can you use the old `<marquee>` tag to make the h1 title scroll horizontally? (if you do, don't forget to remove it afterwards)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Post-Lecture Quiz
 

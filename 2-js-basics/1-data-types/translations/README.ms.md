@@ -1,6 +1,10 @@
 # Asas JavaScript: Jenis Data
 
+<<<<<<< HEAD
 ![Asas JavaScript: Jenis Data](../images/webdev101-js-datatypes.png)
+=======
+![Asas JavaScript: Jenis Data](/sketchnotes/webdev101-js-datatypes.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra Kuliah
@@ -176,7 +180,11 @@ Booleans boleh hanya dua nilai: `benar` atau `salah`. Booleans dapat membantu me
 - `let myTrueBool = betul`
 - `let myFalseBool = salah`
 
+<<<<<<< HEAD
 ✅ Pemboleh ubah boleh dianggap 'benar' jika dinilai menjadi `benar` boolean. Menariknya, dalam JavaScript, [semua nilai adalah benar kecuali ditakrifkan sebagai palsu](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+=======
+✅ Pemboleh ubah boleh dianggap 'benar' jika dinilai menjadi `benar` boolean. Menariknya, dalam JavaScript, [semua nilai adalah benar kecuali ditakrifkan sebagai palsu](https://developer.mozilla.org/docs/Glossary/Truthy).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 --- 
 

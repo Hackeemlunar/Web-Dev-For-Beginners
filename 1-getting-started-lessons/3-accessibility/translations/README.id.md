@@ -1,6 +1,10 @@
 # Membuat Halaman Web yang Dapat Diakses (oleh Semua Orang)
 
+<<<<<<< HEAD
 ![Semua Tentang Aksesibilitas](../webdev101-a11y.png)
+=======
+![Semua Tentang Aksesibilitas](/sketchnotes/webdev101-a11y.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Catatan sketsa oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuis Pra-Kuliah
@@ -25,7 +29,11 @@ Pada dasarnya, pembaca layar akan membaca halaman dari atas ke bawah dengan suar
 
 Setiap pengembang web harus membiasakan diri dengan pembaca layar. Seperti yang disorot di atas, itu adalah klien yang akan digunakan pengguna Anda. Sama seperti saat Anda memahami cara kerja browser, Anda juga harus mempelajari cara kerja pembaca layar. Untungnya, pembaca layar sudah terpasang di sebagian besar sistem operasi, dan banyak browser berisi ekstensi untuk meniru pembaca layar.
 
+<<<<<<< HEAD
 ✅ Coba ekstensi atau alat browser pembaca layar. Salah satu yang hanya berfungsi di Windows adalah [JAWS](https://webaim.org/articles/jaws/). Peramban (browser) juga memiliki alat bawaan yang dapat digunakan untuk tujuan ini; lihat [alat browser Edge yang berfokus pada aksesibilitas ini](https://support.microsoft.com/en-us/help/4000734/microsoft-edge-accessibility-features).
+=======
+✅ Coba ekstensi atau alat browser pembaca layar. Salah satu yang hanya berfungsi di Windows adalah [JAWS](https://webaim.org/articles/jaws/). Peramban (browser) juga memiliki alat bawaan yang dapat digunakan untuk tujuan ini; lihat [alat browser Edge yang berfokus pada aksesibilitas ini](https://support.microsoft.com/help/4000734/microsoft-edge-accessibility-features).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Pemeriksa kontras
 
@@ -129,7 +137,11 @@ Anda dapat menggunakan `aria-label` untuk mendeskripsikan link jika format halam
 <a href="#" aria-label="Deskripsi widget">deskripsi</a>
 ```
 
+<<<<<<< HEAD
 ✅ Secara umum, menggunakan markup Semantik seperti yang dijelaskan di atas menggantikan penggunaan ARIA, tetapi terkadang tidak ada padanan semantik untuk berbagai widget HTML. Contoh yang bagus adalah Progressbar. Tidak ada HTML yang setara untuk bilah kemajuan, jadi Anda mengidentifikasi `<div>` generik untuk elemen ini dengan peran yang tepat dan nilai aria. [Dokumentasi MDN tentang ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) berisi informasi yang lebih berguna.
+=======
+✅ Secara umum, menggunakan markup Semantik seperti yang dijelaskan di atas menggantikan penggunaan ARIA, tetapi terkadang tidak ada padanan semantik untuk berbagai widget HTML. Contoh yang bagus adalah Progressbar. Tidak ada HTML yang setara untuk bilah kemajuan, jadi Anda mengidentifikasi `<div>` generik untuk elemen ini dengan peran yang tepat dan nilai aria. [Dokumentasi MDN tentang ARIA](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) berisi informasi yang lebih berguna.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ```html
 <div id="percent-loaded" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">

@@ -1,10 +1,18 @@
 # Nozioni di base su JavaScript: tipi di dato
 
+<<<<<<< HEAD
 ![Nozioni di base su JavaScript: tipi di dati](../images/webdev101-js-datatypes.png)
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz pre-lezione
 [Quiz pre-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7)
+=======
+![Nozioni di base su JavaScript: tipi di dati](/sketchnotes/webdev101-js-datatypes.png)
+> Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
+
+## Quiz pre-lezione
+[Quiz pre-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Questa lezione copre le basi di JavaScript, il linguaggio che fornisce l'interattività sul web.
 
@@ -116,6 +124,7 @@ Le variabili possono memorizzare tutti i tipi di numero, inclusi decimali o nume
 
 Esistono diversi tipi di operatori da utilizzare quando si eseguono funzioni aritmetiche e alcuni sono elencati qui:
 
+<<<<<<< HEAD
 | Simbolo | Descrizione | Esempio |
 | ------ | ------------------------------------------------------------------------ | -------------------------------- |
 | `+` | **Addizione**: calcola la somma di due numeri | `1 + 2 // la risposta attesa è 3` |
@@ -123,6 +132,15 @@ Esistono diversi tipi di operatori da utilizzare quando si eseguono funzioni ari
 | `*` | **Moltiplicazione**: calcola il prodotto di due numeri | `1 * 2 // la risposta attesa è 2` |
 | `/` | **Divisione**: calcola il quoziente di due numeri | `1/2 // la risposta attesa è 0,5` |
 | `%` | **Resto**: calcola il resto dalla divisione di due numeri | `1 % 2 // la risposta attesa è 1` |
+=======
+| Simbolo | Descrizione                                               | Esempio                           |
+| ------- | --------------------------------------------------------- | --------------------------------- |
+| `+`     | **Addizione**: calcola la somma di due numeri             | `1 + 2 // la risposta attesa è 3` |
+| `-`     | **Sottrazione**: calcola la differenza tra due numeri     | `1-2 // la risposta attesa è -1`  |
+| `*`     | **Moltiplicazione**: calcola il prodotto di due numeri    | `1 * 2 // la risposta attesa è 2` |
+| `/`     | **Divisione**: calcola il quoziente di due numeri         | `1/2 // la risposta attesa è 0,5` |
+| `%`     | **Resto**: calcola il resto dalla divisione di due numeri | `1 % 2 // la risposta attesa è 1` |
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ Proviamolo! Provare un'operazione aritmetica nella console del proprio browser. I risultati sorprendono?
 
@@ -175,7 +193,11 @@ I  booleani possono avere solo due valori: vero (`true`) o falso (`false`). I bo
 - `let myTrueBool = true`
 - `let myFalseBool = false`
 
+<<<<<<< HEAD
 ✅ Una variabile può essere considerata "veritiera" se restituisce un valore booleano `true`. È interessante notare che in JavaScript [tutti i valori sono veritieri a meno che non siano definiti falsi](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+=======
+✅ Una variabile può essere considerata "veritiera" se restituisce un valore booleano `true`. È interessante notare che in JavaScript [tutti i valori sono veritieri a meno che non siano definiti falsi](https://developer.mozilla.org/docs/Glossary/Truthy).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
@@ -184,7 +206,11 @@ I  booleani possono avere solo due valori: vero (`true`) o falso (`false`). I bo
 JavaScript è noto per i suoi modi sorprendenti di gestire talvolta i tipi di dato. Effettuare un po' di ricerca su questi "trabocchetti". Ad esempio: la distinzione tra maiuscole e minuscole può mordere! Provare questo nella propria console: `let age = 1; let Age = 2; age == Age` (risulta `false` - perché?). Quali altri trabocchetti si riescono a trovare?
 
 ## quiz post-lezione
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8)
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Revisione e auto apprendimento
 

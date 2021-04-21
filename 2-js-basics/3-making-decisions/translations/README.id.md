@@ -1,6 +1,10 @@
 # Dasar-dasar JavaScript: Membuat Keputusan
 
+<<<<<<< HEAD
 ![Dasar-dasar JavaScript - Membuat Keputusan](../images/webdev101-js-decisions.png)
+=======
+![Dasar-dasar JavaScript - Membuat Keputusan](/sketchnotes/webdev101-js-decisions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Sketsa oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -166,7 +170,11 @@ Buat program yang ditulis pertama kali dengan operator logika, lalu tulis ulang 
 
 ## Review & Belajar Mandiri
 
+<<<<<<< HEAD
 Baca lebih lanjut tentang banyak operator yang tersedia untuk pengguna [di MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
+=======
+Baca lebih lanjut tentang banyak operator yang tersedia untuk pengguna [di MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Lihat [pencarian operator](https://joshwcomeau.com/operator-lookup/) oleh Josh Comeau yang luar biasa!
 

@@ -20,7 +20,11 @@ La pestaña Rendimiento contiene una herramienta de creación de perfiles. Abra 
 
 ![Edge profiler](./images/profiler.png)
 
+<<<<<<< HEAD
 ✅ Visite la [Documentación de Microsoft](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/performance?WT.mc_id=academic-13441-cxa) en el panel Rendimiento en Edge
+=======
+✅ Visite la [Documentación de Microsoft](https://docs.microsoft.com/microsoft-edge/devtools-guide/performance?WT.mc_id=academic-13441-cxa) en el panel Rendimiento en Edge
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Consejo: para obtener una lectura real de la hora de inicio de su sitio web, borre la memoria caché de su navegador
 

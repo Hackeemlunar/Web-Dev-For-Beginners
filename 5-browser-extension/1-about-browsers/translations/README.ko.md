@@ -1,6 +1,10 @@
 # 브라우저 확장 프로젝트 파트 1: 브라우저에 대한 모든 것
 
+<<<<<<< HEAD
 ![Browser sketchnote](../images/sketchnote.jpg)
+=======
+![Browser sketchnote](/sketchnotes/browser.jpg)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
 
 ## 강의 전 퀴즈
@@ -68,7 +72,11 @@
 - [starter code](../start). `start` 폴더를 다운로드하세요; 이 폴더에서 코드를 완성하게됩니다.
 - [NPM](https://www.npmjs.com) - NPM은 패키지 관리 도구입니다. 로컬에 설치하고 `package.json` 파일에 나열된 패키지를 웹 어셋에서 사용하도록 설치합니다.
 
+<<<<<<< HEAD
 ✅ 이 [excellent Learn module](https://docs.microsoft.com/en-us/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-13441-cxa)에서 패키지 관리에 대해 자세히 알아보세요
+=======
+✅ 이 [excellent Learn module](https://docs.microsoft.com/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-13441-cxa)에서 패키지 관리에 대해 자세히 알아보세요
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 잠시 시간을 내어 코드베이스를 보세요:
 
@@ -155,7 +163,11 @@ npm install
 
 이 강의에서는 웹 브라우저의 역사에 대해 조금 배웠습니다; 이 기회에 역사를 더 많이 읽어보면서 World Wide Web의 탐험가들이 어떻게 사용했는지에 대해 알아보십시오. 유용한 사이트는 다음과 같습니다:
 
+<<<<<<< HEAD
 [The History of Web Browsers](https://www.mozilla.org/en-US/firefox/browsers/browser-history/)
+=======
+[The History of Web Browsers](https://www.mozilla.org/firefox/browsers/browser-history/)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 [History of the Web](https://webfoundation.org/about/vision/history-of-the-web/)
 

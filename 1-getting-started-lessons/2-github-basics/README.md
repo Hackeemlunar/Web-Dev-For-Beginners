@@ -2,7 +2,11 @@
 
 This lesson covers the basics of GitHub, a platform to host and manage changes to your code.
 
+<<<<<<< HEAD
 ![Intro to GitHub](images/webdev101-github.png)
+=======
+![Intro to GitHub](/sketchnotes/webdev101-github.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
@@ -63,7 +67,11 @@ Let's say you have a folder locally with some code project and you want to start
    git init
    ```
 
+<<<<<<< HEAD
 1. **Check status**. To check the status if your repository type:
+=======
+1. **Check status**. To check the status of your repository type:
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
    ```bash
    git status
@@ -264,7 +272,11 @@ Update your current local working branch with all new commits from the correspon
 
 ## How to contribute to open source
 
+<<<<<<< HEAD
 First, let's find a repository - or: repo - on GitHub of interest to you and to which you'd like to contribute a change. You will want to copy the contents of to our machine.
+=======
+First, let's find a repository (or **repo**) on GitHub of interest to you and to which you'd like to contribute a change. You will want to copy its contents to your machine.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ A good way to find 'beginner-friendly' repos is to [search by the tag 'good-first-issue'](https://github.blog/2020-01-22-browse-good-first-issues-to-start-contributing-to-open-source/).
 

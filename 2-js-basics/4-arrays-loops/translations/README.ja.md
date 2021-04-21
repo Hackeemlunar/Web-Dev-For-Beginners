@@ -1,6 +1,10 @@
 # JavaScript の基本: 配列とループ
 
+<<<<<<< HEAD
 ![JavaScript Basics - Arrays](images/webdev101-js-arrays.png)
+=======
+![JavaScript Basics - Arrays](/sketchnotes/webdev101-js-arrays.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト
@@ -89,7 +93,11 @@ while (i < 10) {
 }
 ```
 
+<<<<<<< HEAD
 ✅ for loop と while loop のどちらかを選ぶ理由は何ですか? 17K の視聴者が StackOverflow で同じ質問をしていましたが、その意見の中には[あなたにとって興味深いものもあるかもしれません](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript)。
+=======
+✅ for loop と while loop のどちらかを選ぶ理由は何ですか? 同じ質問が StackOverflow で約2万回閲覧されていましたが、その意見の中には[あなたにとって興味深いものもあるかもしれません](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript)。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## ループと配列
 

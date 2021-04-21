@@ -1,5 +1,11 @@
 # Conceptos básicos de JavaScript: matrices y bucles
 
+<<<<<<< HEAD
+=======
+![JavaScript Basics - Arrays](/sketchnotes/webdev101-js-arrays.png)
+> Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
+
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 [![Matrices y bucles](https://img.youtube.com/vi/Q_CRM2lXXBg/0.jpg)](https://youtube.com/watch?v=Q_CRM2lXXBg "Matrices y bucles")
 
 
@@ -87,7 +93,11 @@ while (i < 10) {
 }
 ```
 
+<<<<<<< HEAD
 ✅ ¿Por qué elegiría un bucle for frente a un bucle while? 17K espectadores tenían la misma pregunta sobre StackOverflow, y algunas de las opiniones [podrían ser interesantes para usted](https://stackoverflow.com/questions/39969145/ while-loops-vs-for-loops-in-javascript).
+=======
+✅ ¿Por qué elegiría un bucle for frente a un bucle while? 17K espectadores tenían la misma pregunta sobre StackOverflow, y algunas de las opiniones [podrían ser interesantes para usted](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Bucles y matrices
 
@@ -103,12 +113,20 @@ for (let i = 0; i < iceCreamFlavors.length; i++) {
 
 ✅ Experimente recorriendo una serie de su propia creación en la consola de su navegador.
 
+<<<<<<< HEAD
 🚀 Desafío: Hay otras formas de realizar un bucle sobre arreglos además de los bucles for y while. Existen [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of), y [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Vuelva a escribir su bucle de matriz utilizando una de estas técnicas.
+=======
+🚀 Desafío: Hay otras formas de realizar un bucle sobre arreglos además de los bucles for y while. Existen [forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of), y [map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Vuelva a escribir su bucle de matriz utilizando una de estas técnicas.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## [Post-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/14)
 
 ## Revisión y autoestudio
 
+<<<<<<< HEAD
 Las matrices en JavaScript tienen muchos métodos adjuntos, extremadamente útiles para la manipulación de datos. [Lea sobre estos métodos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) y pruebe algunos de ellos (como push, pop, slice y splice) en una matriz de su creación.
+=======
+Las matrices en JavaScript tienen muchos métodos adjuntos, extremadamente útiles para la manipulación de datos. [Lea sobre estos métodos](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) y pruebe algunos de ellos (como push, pop, slice y splice) en una matriz de su creación.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 **Asignación**: [Bucle de una matriz](assignment.es.md)

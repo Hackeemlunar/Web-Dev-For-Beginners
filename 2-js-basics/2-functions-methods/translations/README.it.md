@@ -1,11 +1,19 @@
 # Nozioni di base su JavaScript: Metodi e Funzioni
 
+<<<<<<< HEAD
 ![Nozioni di base su JavaScript - Funzioni](../images/webdev101-js-functions.png)
+=======
+![Nozioni di base su JavaScript - Funzioni](/sketchnotes/webdev101-js-functions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz pre-lezione
 
+<<<<<<< HEAD
 [Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/9)
+=======
+[Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/9?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Quando si pensa di scrivere codice, ci si vuole sempre assicurare che il proprio codice sia leggibile. Anche se questo sembra controintuitivo, il codice viene letto molte più volte di quanto non venga scritto. Uno strumento base nella cassetta degli attrezzi dello sviluppatore è la **funzione**
 
@@ -131,7 +139,11 @@ const greetingMessage = createGreetingMessage('Christopher');
 
 Man mano che si progredisce nella propria carriera di programmatore, ci si imbatterà in funzioni che accettano funzioni come parametri. Questo trucco è comunemente usato quando non si sa quando qualcosa accadrà o sarà completata, ma si sa che si deve eseguire un'operazione in risposta.
 
+<<<<<<< HEAD
 Come esempio si consideri [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), che fa partire un timer ed eseguirà del codice il tempo viene esaurito. Occorre dirgli quale codice si vuole eseguire. Sembra un lavoro perfetto per una funzione!
+=======
+Come esempio si consideri [setTimeout](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), che fa partire un timer ed eseguirà del codice il tempo viene esaurito. Occorre dirgli quale codice si vuole eseguire. Sembra un lavoro perfetto per una funzione!
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Se si esegue il codice qui sopra, dopo 3 secondi si vedrà il messaggio **3 seconds has elapsed** (sono trascorsi 3 secondi).
 
@@ -184,11 +196,19 @@ Si riesce ad articolare in una frase la differenza tra funzioni e metodi? Fare u
 
 ## Quiz post-lezione
 
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/10)
 
 ## Revisione e auto apprendimento
 
 Vale la pena [leggere un poco di più sulle funzioni arrow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), poiché sono sempre più utilizzate nelle basi di codice. Esercitarsi a scrivere una funzione, quindi riscriverla con questa sintassi.
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/10?loc=it)
+
+## Revisione e auto apprendimento
+
+Vale la pena [leggere un poco di più sulle funzioni arrow](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions), poiché sono sempre più utilizzate nelle basi di codice. Esercitarsi a scrivere una funzione, quindi riscriverla con questa sintassi.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Compito
 

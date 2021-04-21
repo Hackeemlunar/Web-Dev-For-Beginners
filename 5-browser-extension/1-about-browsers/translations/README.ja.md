@@ -1,6 +1,10 @@
 # ブラウザ拡張機能プロジェクト その 1: ブラウザのすべて
 
+<<<<<<< HEAD
 ![Browser sketchnote](../images/sketchnote.jpg)
+=======
+![Browser sketchnote](/sketchnotes/browser.jpg)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
 
 ## レッスン前の小テスト
@@ -155,7 +159,11 @@ npm install
 
 このレッスンでは、Web ブラウザの歴史について少し学びました。この機会に、Web ブラウザの歴史を読むことで、World Wide Web の発明者がどのように Web ブラウザの使用を想定しているかを学びましょう。役に立つサイトをいくつか紹介します。
 
+<<<<<<< HEAD
 [Web ブラウザの歴史](https://www.mozilla.org/en-US/firefox/browsers/browser-history/)
+=======
+[Web ブラウザの歴史](https://www.mozilla.org/firefox/browsers/browser-history/)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 [Web の歴史](https://webfoundation.org/about/vision/history-of-the-web/)
 

@@ -1,5 +1,12 @@
 # Conceptos básicos de JavaScript: tomar decisiones
 
+<<<<<<< HEAD
+=======
+
+![JavaScript Basics - Making decisions](/sketchnotes/webdev101-js-decisions.png)
+> Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
+
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 ## [Pre-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/11)
 
 Tomar decisiones y controlar el orden en que se ejecuta su código hace que su código sea reutilizable y robusto. Esta sección cubre la sintaxis para controlar el flujo de datos en JavaScript y su importancia cuando se usa con tipos de datos booleanos.
@@ -156,7 +163,11 @@ if (firstNumber > secondNumber) {
 
 ## Revisión y autoestudio
 
+<<<<<<< HEAD
 Más información sobre los muchos operadores disponibles para el usuario [en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
+=======
+Más información sobre los muchos operadores disponibles para el usuario [en MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 **Asignación**: [Operadores](assignment.es.md)
 

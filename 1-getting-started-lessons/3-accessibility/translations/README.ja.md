@@ -1,6 +1,10 @@
 # アクセシブルな Web ページの作成
 
+<<<<<<< HEAD
 ![All About Accessibility](webdev101-a11y.png)
+=======
+![All About Accessibility](/sketchnotes/webdev101-a11y.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト
@@ -84,7 +88,11 @@ CSS は、ページ上のあらゆる要素の外観を完全に制御するこ�
 
 ご想像の通り、スクリーンリーダーはリンクテキストをページ上の他のテキストと同じように読みます。このことを念頭に置いて、以下に示すテキストは完全に許容できると感じるかもしれません。
 
+<<<<<<< HEAD
 > 妖精ペンギンと呼ばれることもあるコガタペンギンは、世界最小のペンギンです。[詳しくはこちら](https://en.wikipedia.org/wiki/Little_penguin) をご覧ください。
+=======
+> 妖精ペンギンと呼ばれることもあるコガタペンギンは、世界最小のペンギンです。[詳しくはこちら](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%82%AC%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3) をご覧ください。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > 妖精ペンギンと呼ばれることもあるリトルペンギンは、世界最小のペンギンです。詳しくは https://ja.wikipedia.org/wiki/%E3%82%B3%E3%82%AC%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3 をご覧ください。
 
@@ -224,6 +232,10 @@ CSS は、ページ上のあらゆる要素の外観を完全に制御するこ�
 
 ## 課題
  
+<<<<<<< HEAD
 [Analyze a non-accessible web site](assignment.ja.md)
+=======
+[アクセスできない Web サイトを分析する](assignment.ja.md)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument

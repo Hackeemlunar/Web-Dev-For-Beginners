@@ -1,6 +1,10 @@
 # Projek Terrarium Bahagian 2: Pengenalan Kepada CSS
 
+<<<<<<< HEAD
 ![Pengenalan Kepada CSS](../images/webdev101-css.png)
+=======
+![Pengenalan Kepada CSS](/sketchnotes/webdev101-css.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote karya [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra Kuliah
@@ -194,7 +198,11 @@ Pertama, gayakan anak-anak `.terrarium` sebagai segi empat bulat menggunakan CSS
 	height: 80%;
 	width: 60%;
 	background: #d1e1df;
+<<<<<<< HEAD
 	border-radius: 10%;
+=======
+	border-radius: 1rem;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	position: absolute;
 	bottom: 0.5%;
 	left: 20%;
@@ -224,6 +232,7 @@ Pertama, gayakan anak-anak `.terrarium` sebagai segi empat bulat menggunakan CSS
 }
 
 .dirt {
+<<<<<<< HEAD
 	width: 58%;
 	height: 5%;
 	background: #3a241d;
@@ -231,12 +240,25 @@ Pertama, gayakan anak-anak `.terrarium` sebagai segi empat bulat menggunakan CSS
 	border-radius: 0 0 4rem 4rem;
 	bottom: 1%;
 	left: 21%;
+=======
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	opacity: 0.7;
 	z-index: -1;
 }
 ```
 
+<<<<<<< HEAD
 Perhatikan penggunaan peratusan di sini, walaupun untuk `radius sempadan (border-radius)`. Sekiranya anda menurunkan penyemak imbas anda, anda dapat melihat bagaimana skala sudut jar juga. Perhatikan juga peratusan lebar dan tinggi untuk elemen balang dan bagaimana setiap elemen benar-benar diposisikan di tengah, disematkan ke bahagian bawah pandang.
+=======
+Perhatikan penggunaan peratusan di sini. Sekiranya anda menurunkan penyemak imbas anda, anda dapat melihat bagaimana skala sudut jar juga. Perhatikan juga peratusan lebar dan tinggi untuk elemen balang dan bagaimana setiap elemen benar-benar diposisikan di tengah, disematkan ke bahagian bawah pandang.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ Cubalah ubah warna balang dan kelegapan berbanding kotoran. Apa yang berlaku? Kenapa?
 
@@ -248,7 +270,11 @@ Tambahkan kilauan 'bubble' ke bahagian bawah kiri balang agar kelihatan lebih me
 
 ![finished terrarium](../images/terrarium-final.png)
 
+<<<<<<< HEAD
 Untuk menyelesaikan kuiz pasca kuliah, baca modul Belajar ini: [Gaya aplikasi HTML anda dengan CSS](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/4-css-basics)
+=======
+Untuk menyelesaikan kuiz pasca kuliah, baca modul Belajar ini: [Gaya aplikasi HTML anda dengan CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Kuiz Pasca Kuliah
 

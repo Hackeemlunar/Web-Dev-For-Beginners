@@ -1,6 +1,10 @@
 # JavaScript Basics: Data Types
 
+<<<<<<< HEAD
 ![JavaScript Basics - Data types](images/webdev101-js-datatypes.png)
+=======
+![JavaScript Basics - Data types](/sketchnotes/webdev101-js-datatypes.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
@@ -176,7 +180,11 @@ Booleans can be only two values: `true` or `false`. Booleans can help make decis
 - `let myTrueBool = true`
 - `let myFalseBool = false`
 
+<<<<<<< HEAD
 ✅ A variable can be considered 'truthy' if it evaluates to a boolean `true`. Interestingly, in JavaScript, [all values are truthy unless defined as falsy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+=======
+✅ A variable can be considered 'truthy' if it evaluates to a boolean `true`. Interestingly, in JavaScript, [all values are truthy unless defined as falsy](https://developer.mozilla.org/docs/Glossary/Truthy).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 

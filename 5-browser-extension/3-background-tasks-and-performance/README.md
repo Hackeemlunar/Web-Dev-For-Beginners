@@ -22,7 +22,11 @@ The Performance tab contains a Profiling tool. Open a web site (try, for example
 
 ![Edge profiler](./images/profiler.png)
 
+<<<<<<< HEAD
 ✅ Visit the [Microsoft Documentation](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/performance?WT.mc_id=academic-13441-cxa) on the Performance panel in Edge
+=======
+✅ Visit the [Microsoft Documentation](https://docs.microsoft.com/microsoft-edge/devtools-guide/performance?WT.mc_id=academic-13441-cxa) on the Performance panel in Edge
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Tip: to get a true reading of your web site's startup time, clear your browser's cache
 

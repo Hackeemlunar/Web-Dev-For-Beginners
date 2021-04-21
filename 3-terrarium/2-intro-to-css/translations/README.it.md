@@ -1,6 +1,10 @@
 # Progetto Terrario Parte 2: Introduzione a CSS
 
+<<<<<<< HEAD
 ![Introduzione a CSS](../images/webdev101-css.png)
+=======
+![Introduzione a CSS](/sketchnotes/webdev101-css.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-Lezione
@@ -194,7 +198,11 @@ Innanzitutto, si applica lo stile al div figlio `.terrarium` in modo che sia un 
 	height: 80%;
 	width: 60%;
 	background: #d1e1df;
+<<<<<<< HEAD
 	border-radius: 10%;
+=======
+	border-radius: 1rem;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	position: absolute;
 	bottom: 0.5%;
 	left: 20%;
@@ -224,6 +232,7 @@ Innanzitutto, si applica lo stile al div figlio `.terrarium` in modo che sia un 
 }
 
 .dirt {
+<<<<<<< HEAD
 	width: 58%;
 	height: 5%;
 	background: #3a241d;
@@ -231,12 +240,25 @@ Innanzitutto, si applica lo stile al div figlio `.terrarium` in modo che sia un 
 	border-radius: 0 0 4rem 4rem;
 	bottom: 1%;
 	left: 21%;
+=======
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	opacity: 0.7;
 	z-index: -1;
 }
 ```
 
+<<<<<<< HEAD
 Notare l'uso delle percentuali qui, anche per il `border-radius` (il raggio del bordo arrotondato). Se si riduce la finestra del browser, si puòi vedere come si ridimensionano anche gli angoli del barattolo. Notare anche le percentuali di larghezza e altezza per gli elementi jar e come ogni elemento sia posizionato in modo assoluto al centro, bloccato nella parte inferiore della finestra visualizzata.
+=======
+Notare l'uso delle percentuali qui. Se si riduce la finestra del browser, si puòi vedere come si ridimensionano anche gli angoli del barattolo. Notare anche le percentuali di larghezza e altezza per gli elementi jar e come ogni elemento sia posizionato in modo assoluto al centro, bloccato nella parte inferiore della finestra visualizzata.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ Provare a cambiare i colori e l'opacità del barattolo rispetto a quelli della terra. Che cosa accade? Perché?
 

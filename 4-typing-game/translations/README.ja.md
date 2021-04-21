@@ -23,7 +23,11 @@
 
 ## レッスン
 
+<<<<<<< HEAD
 [イベント駆動型プログラミングを用いたタイピングゲームの作成](./typing-game/translations/README.ja.md)
+=======
+[イベント駆動型プログラミングを用いたタイピングゲームの作成](../typing-game/translations/README.ja.md)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## クレジット
 

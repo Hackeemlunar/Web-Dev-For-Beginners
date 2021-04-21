@@ -93,7 +93,11 @@ En esta función, hay una lógica interesante. Al leerlo, ¿puedes ver lo que su
   - ocultar el formulario
   - mostrar el botón de reinicio
 
+<<<<<<< HEAD
 Antes de continuar, es útil conocer un concepto muy importante disponible en los navegadores: [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). LocalStorage es una forma útil de almacenar cadenas en el navegador como un par "clave-valor". Este tipo de almacenamiento web puede ser manipulado por JavaScript para administrar datos en el navegador. LocalStorage no caduca, mientras que SessionStorage, otro tipo de almacenamiento web, se borra cuando se cierra el navegador. Los distintos tipos de almacenamiento tienen ventajas y desventajas para su uso.
+=======
+Antes de continuar, es útil conocer un concepto muy importante disponible en los navegadores: [LocalStorage](https://developer.mozilla.org/docs/Web/API/Window/localStorage). LocalStorage es una forma útil de almacenar cadenas en el navegador como un par "clave-valor". Este tipo de almacenamiento web puede ser manipulado por JavaScript para administrar datos en el navegador. LocalStorage no caduca, mientras que SessionStorage, otro tipo de almacenamiento web, se borra cuando se cierra el navegador. Los distintos tipos de almacenamiento tienen ventajas y desventajas para su uso.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Nota: la extensión de su navegador tiene su propio almacenamiento local; la ventana principal del navegador es una instancia diferente y se comporta por separado.
 
@@ -193,13 +197,21 @@ Esta es una gran función. ¿Que está pasando aqui?
 - una vez que la API responde, asigna varios elementos de sus datos de respuesta a las partes de su pantalla que configura para mostrar estos datos.
 - si hay un error o si no hay ningún resultado, muestra un mensaje de error.
 
+<<<<<<< HEAD
 ✅ El uso de patrones de programación asíncronos es otra herramienta muy útil en su caja de herramientas. Lea [acerca de las diversas formas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) puede configurar este tipo de código.
+=======
+✅ El uso de patrones de programación asíncronos es otra herramienta muy útil en su caja de herramientas. Lea [acerca de las diversas formas](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/async_function) puede configurar este tipo de código.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ¡Felicidades! Si construye su extensión (`npm run build`) y la actualiza en su panel de extensiones, ¡tiene una extensión que funciona! Lo único que no funciona es el ícono, y lo solucionará en la próxima lección.
 
 ---
 
+<<<<<<< HEAD
 🚀 Desafío: hemos discutido varios tipos de API hasta ahora en estas lecciones. Elija una API web e investigue en profundidad lo que ofrece. Por ejemplo, eche un vistazo a las API disponibles en los navegadores, como la [API HTML de arrastrar y soltar](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API). En tu opinión, ¿qué hace que una API sea excelente?
+=======
+🚀 Desafío: hemos discutido varios tipos de API hasta ahora en estas lecciones. Elija una API web e investigue en profundidad lo que ofrece. Por ejemplo, eche un vistazo a las API disponibles en los navegadores, como la [API HTML de arrastrar y soltar](https://developer.mozilla.org/docs/Web/API/HTML_Drag_and_Drop_API). En tu opinión, ¿qué hace que una API sea excelente?
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 
 ## [Post-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/26)

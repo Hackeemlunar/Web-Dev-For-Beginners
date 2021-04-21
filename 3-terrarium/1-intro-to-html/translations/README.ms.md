@@ -1,6 +1,10 @@
 # Projek Terrarium Bahagian 1: Pengenalan Kepada HTML
 
+<<<<<<< HEAD
 ![Pengenalan Kepada HTML](images/webdev101-html.png)
+=======
+![Pengenalan Kepada HTML](/sketchnotes/webdev101-html.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote karya [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra Kuliah
@@ -48,13 +52,21 @@ Tambahkan baris ini di bahagian atas fail `index.html` anda:
 <html></html>
 ```
 
+<<<<<<< HEAD
 ✅ Terdapat beberapa mod berbeza yang dapat ditentukan dengan menetapkan Jenis Dokumen dengan rentetan pertanyaan: [Mod Quirks dan Mod Piawai](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode) . Mod ini digunakan untuk menyokong penyemak imbas lama yang tidak biasa digunakan pada masa ini (Netscape Navigator 4 dan Internet Explorer 5). Anda boleh berpegang pada pernyataan standard documentype.
+=======
+✅ Terdapat beberapa mod berbeza yang dapat ditentukan dengan menetapkan Jenis Dokumen dengan rentetan pertanyaan: [Mod Quirks dan Mod Piawai](https://developer.mozilla.org/docs/Web/HTML/Quirks_Mode_and_Standards_Mode) . Mod ini digunakan untuk menyokong penyemak imbas lama yang tidak biasa digunakan pada masa ini (Netscape Navigator 4 dan Internet Explorer 5). Anda boleh berpegang pada pernyataan standard documentype.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
 ## Dokumen 'head'
 
+<<<<<<< HEAD
 Kawasan 'head' dokumen HTML merangkumi maklumat penting mengenai laman web anda, juga dikenali sebagai [metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta). Dalam kes kami, kami memberitahu pelayan web tempat halaman ini akan dihantar untuk diberikan, empat perkara berikut:
+=======
+Kawasan 'head' dokumen HTML merangkumi maklumat penting mengenai laman web anda, juga dikenali sebagai [metadata](https://developer.mozilla.org/docs/Web/HTML/Element/meta). Dalam kes kami, kami memberitahu pelayan web tempat halaman ini akan dihantar untuk diberikan, empat perkara berikut:
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 - tajuk halaman
 - metadata halaman termasuk:
@@ -75,7 +87,11 @@ Tambahkan blok 'head' ke dokumen anda di antara tag pembuka dan penutup `<html>`
 </head>
 ```
 
+<<<<<<< HEAD
 ✅ Apa yang akan berlaku jika anda menetapkan tag meta viewport seperti ini: `<meta name =" viewport "content =" width = 600 ">`? Baca lebih lanjut mengenai [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).
+=======
+✅ Apa yang akan berlaku jika anda menetapkan tag meta viewport seperti ini: `<meta name =" viewport "content =" width = 600 ">`? Baca lebih lanjut mengenai [viewport](https://developer.mozilla.org/docs/Mozilla/Mobile/Viewport_meta_tag).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ---
 
@@ -213,7 +229,11 @@ Tambahkan markup ini di atas tag `</div>` terakhir:
 
 ## 🚀Cabaran
 
+<<<<<<< HEAD
 Terdapat beberapa tag 'lawas' liar dalam HTML yang masih menyeronokkan untuk dimainkan, walaupun anda tidak boleh menggunakan tag yang tidak digunakan seperti [tag ini](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) dalam markup anda. Masih bolehkah anda menggunakan tag `<marquee>` lama untuk menjadikan tajuk h1 menatal secara mendatar? (jika anda melakukannya, jangan lupa membuangnya selepas itu)
+=======
+Terdapat beberapa tag 'lawas' liar dalam HTML yang masih menyeronokkan untuk dimainkan, walaupun anda tidak boleh menggunakan tag yang tidak digunakan seperti [tag ini](https://developer.mozilla.org/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) dalam markup anda. Masih bolehkah anda menggunakan tag `<marquee>` lama untuk menjadikan tajuk h1 menatal secara mendatar? (jika anda melakukannya, jangan lupa membuangnya selepas itu)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Kuiz Pasca Kuliah
 

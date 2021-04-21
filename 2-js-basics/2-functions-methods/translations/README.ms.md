@@ -1,6 +1,10 @@
 # Asas JavaScript: Kaedah dan Fungsi
 
+<<<<<<< HEAD
 ![Asas JavaScript - Fungsi](../images/webdev101-js-functions.png)
+=======
+![Asas JavaScript - Fungsi](/sketchnotes/webdev101-js-functions.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote karya [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra Kuliah
@@ -104,7 +108,11 @@ displayGreeting('Christopher', 'Hi');
 
 ## Nilai Pulangan
 
+<<<<<<< HEAD
 Sehingga kini fungsi yang kami bina akan selalu dikeluarkan ke [console](https://developer.mozilla.org/en-US/docs/Web/API/console). Kadang kala inilah yang sebenarnya kita cari, terutamanya ketika kita membuat fungsi yang akan memanggil perkhidmatan lain. Tetapi bagaimana jika saya ingin membuat fungsi pembantu untuk melakukan pengiraan dan memberikan nilai kembali supaya saya dapat menggunakannya di tempat lain?
+=======
+Sehingga kini fungsi yang kami bina akan selalu dikeluarkan ke [console](https://developer.mozilla.org/docs/Web/API/console). Kadang kala inilah yang sebenarnya kita cari, terutamanya ketika kita membuat fungsi yang akan memanggil perkhidmatan lain. Tetapi bagaimana jika saya ingin membuat fungsi pembantu untuk melakukan pengiraan dan memberikan nilai kembali supaya saya dapat menggunakannya di tempat lain?
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Kita boleh melakukan ini dengan menggunakan **nilai kembali**. Nilai kembali akan dikembalikan oleh fungsi, dan dapat disimpan dalam pemboleh ubah sama seperti kita dapat menyimpan nilai literal seperti rentetan atau angka.
 
@@ -133,7 +141,11 @@ const greetingMessage = createGreetingMessage('Christopher');
 
 Semasa anda maju dalam kerjaya pengaturcaraan anda, anda akan menemui fungsi yang menerima fungsi sebagai parameter. Trik rapi ini biasanya digunakan ketika kita tidak tahu kapan sesuatu akan terjadi atau selesai, tetapi kita tahu kita perlu melakukan operasi sebagai tindak balas.
 
+<<<<<<< HEAD
 Sebagai contoh, pertimbangkan [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), yang memulakan pemasa dan akan melaksanakan kod apabila selesai. Kita perlu memberitahu apa kod yang ingin kita laksanakan. Kedengarannya pekerjaan yang sempurna untuk fungsi!
+=======
+Sebagai contoh, pertimbangkan [setTimeout](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), yang memulakan pemasa dan akan melaksanakan kod apabila selesai. Kita perlu memberitahu apa kod yang ingin kita laksanakan. Kedengarannya pekerjaan yang sempurna untuk fungsi!
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Sekiranya anda menjalankan kod di bawah ini, setelah 3 saat anda akan melihat mesej **3 saat telah berlalu**.
 
@@ -188,7 +200,11 @@ Bolehkah anda menyatakan dalam satu ayat perbezaan antara fungsi dan kaedah? Men
 
 ## Mengkaji & Belajar Sendiri 
 
+<<<<<<< HEAD
 Perlu [membaca sedikit lebih banyak mengenai fungsi anak panah](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), kerana ia semakin banyak digunakan dalam pangkalan kod. Berlatih menulis fungsi, dan kemudian menulis semula dengan sintaks ini.
+=======
+Perlu [membaca sedikit lebih banyak mengenai fungsi anak panah](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions), kerana ia semakin banyak digunakan dalam pangkalan kod. Berlatih menulis fungsi, dan kemudian menulis semula dengan sintaks ini.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Tugasan
 

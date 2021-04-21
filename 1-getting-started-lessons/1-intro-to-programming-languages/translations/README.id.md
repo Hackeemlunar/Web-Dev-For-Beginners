@@ -2,7 +2,11 @@
 
 Pelajaran ini mencakup dasar-dasar bahasa pemrograman. Topik yang dibahas di sini berlaku untuk sebagian besar bahasa pemrograman modern saat ini. Di bagian 'Alat Keterampilan', Anda akan belajar tentang perangkat lunak yang berguna yang membantu Anda sebagai pengembang.
 
+<<<<<<< HEAD
 ![Pemrograman Intro](../webdev101-programming.png)
+=======
+![Pemrograman Intro](/sketchnotes/webdev101-programming.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Catatan sketsa oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuis Pra-Kuliah

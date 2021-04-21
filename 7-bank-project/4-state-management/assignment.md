@@ -6,7 +6,11 @@ Our bank app is still missing one important feature: the possibility to enter ne
 Using everything that you've learnt in the four previous lessons, implement an "Add transaction" dialog:
 
 - Add an "Add transaction" button in the dashboard page
+<<<<<<< HEAD
 - Either create a new page with an HTML template, or use JavaScript to show/hide the dialog HTML without leaving the dashboard page (you can use [`hidden`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden) property for that, or CSS classes)
+=======
+- Either create a new page with an HTML template, or use JavaScript to show/hide the dialog HTML without leaving the dashboard page (you can use [`hidden`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/hidden) property for that, or CSS classes)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 - Make sure you handle [keyboard and screen reader accessibility](https://developer.paciellogroup.com/blog/2018/06/the-current-state-of-modal-dialog-accessibility/) for the dialog
 - Implement an HTML form to receive input data
 - Create JSON data from the form data and send it to the API

@@ -40,7 +40,11 @@ Si desea crear varias pantallas para una página web, una solución sería crear
 - Tienes que volver a cargar todo el HTML al cambiar de pantalla, lo que puede ser lento.
 - Es difícil compartir datos entre las diferentes pantallas.
 
+<<<<<<< HEAD
 Otro enfoque es tener un solo archivo HTML y definir múltiples [plantillas HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) usando el elemento `<template>`. Una plantilla es un bloque HTML reutilizable que el navegador no muestra y debe instanciarse en tiempo de ejecución mediante JavaScript.
+=======
+Otro enfoque es tener un solo archivo HTML y definir múltiples [plantillas HTML](https://developer.mozilla.org/docs/Web/HTML/Element/template) usando el elemento `<template>`. Una plantilla es un bloque HTML reutilizable que el navegador no muestra y debe instanciarse en tiempo de ejecución mediante JavaScript.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Tarea:
 
@@ -105,9 +109,15 @@ Si prueba su archivo HTML actual en un navegador, verá que se atasca mostrando 
 
 La instanciación de una plantilla se suele realizar en 3 pasos:
 
+<<<<<<< HEAD
 1. Recupere el elemento de plantilla en el DOM, por ejemplo, usando [`document.getElementById`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById).
 2. Clone el elemento de plantilla, usando [`cloneNode`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode).
 3. Adjúntelo al DOM bajo un elemento visible, por ejemplo usando [ʻappendChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild).
+=======
+1. Recupere el elemento de plantilla en el DOM, por ejemplo, usando [`document.getElementById`](https://developer.mozilla.org/docs/Web/API/Document/getElementById).
+2. Clone el elemento de plantilla, usando [`cloneNode`](https://developer.mozilla.org/docs/Web/API/Node/cloneNode).
+3. Adjúntelo al DOM bajo un elemento visible, por ejemplo usando [ʻappendChild`](https://developer.mozilla.org/docs/Web/API/Node/appendChild).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ ¿Por qué necesitamos clonar la plantilla antes de adjuntarla al DOM? ¿Qué crees que pasaría si nos salteáramos este paso?
 
@@ -172,7 +182,11 @@ const routes = {
 };
 ```
 
+<<<<<<< HEAD
 Ahora modifiquemos un poco la función `updateRoute`. En lugar de pasar directamente el `templateId` como argumento, queremos recuperarlo mirando primero la URL actual y luego usar nuestro mapa para obtener el valor de ID de plantilla correspondiente. Podemos usar [`window.location.pathname`](https://developer.mozilla.org/en-US/docs/Web/API/Location/pathname) para obtener solo la sección de ruta de la URL.
+=======
+Ahora modifiquemos un poco la función `updateRoute`. En lugar de pasar directamente el `templateId` como argumento, queremos recuperarlo mirando primero la URL actual y luego usar nuestro mapa para obtener el valor de ID de plantilla correspondiente. Podemos usar [`window.location.pathname`](https://developer.mozilla.org/docs/Web/API/Location/pathname) para obtener solo la sección de ruta de la URL.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ```js
 function updateRoute() {
@@ -199,9 +213,15 @@ El siguiente paso para nuestra aplicación es agregar la posibilidad de navegar 
 
 Ya nos ocupamos de la segunda parte con la función `updateRoute`, así que tenemos que averiguar cómo actualizar la URL actual.
 
+<<<<<<< HEAD
 Si bien el elemento de anclaje HTML [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) se puede utilizar para crear hipervínculos a diferentes URL, podemos ' No use eso aquí, ya que hará que el navegador vuelva a cargar el HTML.
 
 En su lugar, tendremos que usar JavaScript y más específicamente el [`history.pushState`](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState) que permite actualizar la URL y cree una nueva entrada en el historial de navegación, sin volver a cargar el HTML.
+=======
+Si bien el elemento de anclaje HTML [`<a>`](https://developer.mozilla.org/docs/Web/HTML/Element/a) se puede utilizar para crear hipervínculos a diferentes URL, podemos ' No use eso aquí, ya que hará que el navegador vuelva a cargar el HTML.
+
+En su lugar, tendremos que usar JavaScript y más específicamente el [`history.pushState`](https://developer.mozilla.org/docs/Web/API/History/pushState) que permite actualizar la URL y cree una nueva entrada en el historial de navegación, sin volver a cargar el HTML.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Tarea
 
@@ -241,7 +261,11 @@ Completemos el sistema de navegación agregando enlaces a nuestros botones *logi
 <button onclick="navigate('/login')">Logout</button>
 ```
 
+<<<<<<< HEAD
 Usando el atributo [`onclick`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick) enlaza el evento `click` al código JavaScript, aquí la llamada al` navigate()`función.
+=======
+Usando el atributo [`onclick`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onclick) enlaza el evento `click` al código JavaScript, aquí la llamada al` navigate()`función.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Intente hacer clic en estos botones, ahora debería poder navegar entre las diferentes pantallas de su aplicación.
 
@@ -255,7 +279,11 @@ El uso de `history.pushState` crea nuevas entradas en el historial de navegació
 
 Si intenta hacer clic en el botón Atrás varias veces, verá que la URL actual cambia y el historial se actualiza, pero se sigue mostrando la misma plantilla.
 
+<<<<<<< HEAD
 Eso es porque no sabemos que necesitamos llamar a `updateRoute()` cada vez que cambia el historial. Si echas un vistazo a la [`history.pushState` documentation](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState), puedes ver que si el estado cambia - lo que significa que nos mudamos a una URL diferente - se activa el evento [`popstate`](https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event). Lo usaremos para solucionar ese problema.
+=======
+Eso es porque no sabemos que necesitamos llamar a `updateRoute()` cada vez que cambia el historial. Si echas un vistazo a la [`history.pushState` documentation](https://developer.mozilla.org/docs/Web/API/History/pushState), puedes ver que si el estado cambia - lo que significa que nos mudamos a una URL diferente - se activa el evento [`popstate`](https://developer.mozilla.org/docs/Web/API/Window/popstate_event). Lo usaremos para solucionar ese problema.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Tarea
 
@@ -267,7 +295,11 @@ window.onpopstate = () => updateRoute();
 updateRoute();
 ```
 
+<<<<<<< HEAD
 > Nota: utilizamos una [función de flecha](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) aquí para declarar nuestro controlador de eventos `popstate` por concisión, pero un la función regular funcionaría igual.
+=======
+> Nota: utilizamos una [función de flecha](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) aquí para declarar nuestro controlador de eventos `popstate` por concisión, pero un la función regular funcionaría igual.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Ahora intente utilizar los botones de avance y retroceso de sus navegadores y compruebe que esta vez lo que se muestra está actualizado correctamente.
 

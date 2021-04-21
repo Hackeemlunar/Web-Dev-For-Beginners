@@ -2,7 +2,11 @@
 
 ![Embed a video here](video-url)
 
+<<<<<<< HEAD
 ## [Pre-lecture quiz](.github/pre-lecture-quiz.md)
+=======
+## [Pre-lecture quiz](quiz-url)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 [Describe what we will learn]
 
@@ -44,7 +48,11 @@ code blocks
 
 Optional: add a screenshot of the completed lesson's UI if appropriate
 
+<<<<<<< HEAD
 ## [Post-lecture quiz](.github/post-lecture-quiz.md)
+=======
+## [Post-lecture quiz](quiz-url)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Review & Self Study
 

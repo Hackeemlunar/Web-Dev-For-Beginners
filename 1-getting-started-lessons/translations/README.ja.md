@@ -4,9 +4,15 @@
 
 ### トピック
 
+<<<<<<< HEAD
 1. [プログラミング言語と開発ツール入門](1-intro-to-programming-languages/README.md)
 2. [GitHub の基本](2-github-basics/README.md)
 3. [アクセシビリティの基本](3-accessibility/README.md)
+=======
+1. [プログラミング言語と開発ツール入門](../1-intro-to-programming-languages/translations/README.ja.md)
+2. [GitHub の基本](../2-github-basics/translatiions/README.ja.md)
+3. [アクセシビリティの基本](../3-accessibility/translations/README.ja.md)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Credits
 

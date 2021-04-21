@@ -1,6 +1,10 @@
 # テラリウムプロジェクト その2: CSS 入門
 
+<<<<<<< HEAD
 ![Introduction to CSS](images/webdev101-css.png)
+=======
+![Introduction to CSS](/sketchnotes/webdev101-css.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## レッスン前の小テスト
@@ -11,7 +15,11 @@
 
 CSS (カスケードスタイルシート) は、Web 開発の重要な問題である、Web サイトの見栄えを良くする方法を解決します。また、CSS を使用してレスポンシブ ウェブ デザイン (RWD) を作成することもできます。CSS の仕様には、アプリケーションの洗練されたインタラクションを可能にするアニメーションや変換が含まれています。CSS Working Group は現在の CSS 仕様の維持を支援しており、[World Wide Web Consortium のサイト](https://www.w3.org/Style/CSS/members) でその活動を追うことができます。
 
+<<<<<<< HEAD
 > 注: CSS は Web 上のすべてのものと同様に進化する言語であり、すべてのブラウザが仕様の新しい部分をサポートしているわけではありません。常に [CanIUse.com](caniuse.com) に相談して実装を確認してください。
+=======
+> 注: CSS は Web 上のすべてのものと同様に進化する言語であり、すべてのブラウザが仕様の新しい部分をサポートしているわけではありません。常に [CanIUse.com](https://caniuse.com) を参照して実装を確認してください。
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 このレッスンでは、オンラインテラリウムにスタイルを追加し、カスケード、継承、セレクタの使用、配置、CSS を使ったレイアウトの作成など、CSS の概念について学びます。その過程で、テラリウムをレイアウトし、実際のテラリウムを作成していきます。
 
@@ -37,13 +45,21 @@ CSS (カスケードスタイルシート) は、Web 開発の重要な問題で
 
 インラインスタイル "color: red" を `<h1>` タグに追加します。
 
+<<<<<<< HEAD
 ```HTML
+=======
+```html
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 <h1 style="color: red">My Terrarium</h1>
 ```
 
 次に、以下のコードを `style.css` ファイルに追加します。
 
+<<<<<<< HEAD
 ```CSS
+=======
+```css
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 h1 {
  color: blue;
 }
@@ -61,7 +77,11 @@ h1 {
 
 body のフォントを指定されたフォントに設定し、入れ子になっている要素のフォントを確認します。
 
+<<<<<<< HEAD
 ```
+=======
+```css
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -69,7 +89,11 @@ body {
 
 ブラウザのコンソールから「要素」タブを開き、h1 のフォントを観察してください。ブラウザ内で述べられているように、フォントは body から継承されています。
 
+<<<<<<< HEAD
 ![inherited font](images/1.png)
+=======
+![inherited font](../images/1.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ✅ 入れ子になったスタイルを別のプロパティを継承させることはできますか?
 
@@ -81,7 +105,11 @@ body {
 
 これまでのところ、`style.css` ファイルにはいくつかのタグがスタイリングされているだけで、アプリはかなり変な感じになっています。
 
+<<<<<<< HEAD
 ```
+=======
+```css
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -94,12 +122,20 @@ h1 {
 
 このようにタグをスタイリングすることで、ユニークな要素をコントロールすることができますが、テラリウム内の多くの植物のスタイルをコントロールする必要があります。そのためには、CSS セレクタを利用する必要があります。
 
+<<<<<<< HEAD
 ### Id
 
 Add some style to layout the left and right containers. Since there is only one left container and only one right container, they are given ids in the markup. To style them, use `#`:
 左と右のコンテナをレイアウトするためのスタイルを追加します。左のコンテナと右のコンテナは1つしかないので、マークアップでは id が与えられます。スタイルを設定するには、`#` を使用します。
 
 ```
+=======
+### id
+
+左と右のコンテナをレイアウトするためのスタイルを追加します。左のコンテナと右のコンテナは1つしかないので、マークアップでは id が与えられます。スタイルを設定するには、`#` を使用します。
+
+```css
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 #left-container {
 	background-color: #eee;
 	width: 15%;
@@ -195,7 +231,11 @@ HTML マークアップの各植物には、id とクラスの組み合わせが
 	height: 80%;
 	width: 60%;
 	background: #d1e1df;
+<<<<<<< HEAD
 	border-radius: 10%;
+=======
+	border-radius: 1rem;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	position: absolute;
 	bottom: 0.5%;
 	left: 20%;
@@ -225,6 +265,7 @@ HTML マークアップの各植物には、id とクラスの組み合わせが
 }
 
 .dirt {
+<<<<<<< HEAD
 	width: 58%;
 	height: 5%;
 	background: #3a241d;
@@ -232,6 +273,15 @@ HTML マークアップの各植物には、id とクラスの組み合わせが
 	border-radius: 0 0 4rem 4rem;
 	bottom: 1%;
 	left: 21%;
+=======
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -247,7 +297,11 @@ HTML マークアップの各植物には、id とクラスの組み合わせが
 
 瓶の左下の部分に「泡」のような輝きを加えて、よりガラスのように見えるようにします。`.jar-glossy-long` と `.jar-glossy-short` は反射光のように見えるようにスタイリングします。このようになります。
 
+<<<<<<< HEAD
 ![finished terrarium](./images/terrarium-final.png)
+=======
+![finished terrarium](../images/terrarium-final.png)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 レッスン後の小テストを完成させるには、この Learn モジュールを通ってください: [HTML アプリを CSS でスタイルを整える](https://docs.microsoft.com/ja-jp/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
 

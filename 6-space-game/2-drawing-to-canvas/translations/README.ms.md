@@ -8,7 +8,11 @@
 
 Kanvas adalah elemen HTML yang secara lalai tidak mempunyai isi; itu batu tulis kosong. Anda perlu menambahkannya dengan melukisnya.
 
+<<<<<<< HEAD
 ✅ Baca [lebih lanjut mengenai Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) di MDN.
+=======
+✅ Baca [lebih lanjut mengenai Canvas API](https://developer.mozilla.org/docs/Web/API/Canvas_API) di MDN.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Inilah cara ia dinyatakan secara umum, sebagai bahagian badan halaman:
 
@@ -27,7 +31,11 @@ Di atas kita menetapkan `id`, `lebar` dan `tinggi`.
 Canvas menggunakan sistem koordinat kartesian untuk menarik sesuatu. Oleh itu ia menggunakan paksi-x dan paksi-y untuk menyatakan di mana sesuatu berada. Lokasi `0,0` adalah kedudukan kiri atas dan kanan bawah adalah yang anda katakan sebagai Luas dan TINGGI kanvas.
 
 ![grid kanvas](../canvas_grid.png)
+<<<<<<< HEAD
 > Imej dari [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+=======
+> Imej dari [MDN](https://developer.mozilla.org/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Untuk menggunakan elemen kanvas, anda perlu melalui langkah-langkah berikut:
 
@@ -52,7 +60,11 @@ ctx.fillStyle = 'red';
 ctx.fillRect(0,0, 200, 200) // x,y,luas,tinggi
 ```
 
+<<<<<<< HEAD
 ✅ Canvas API kebanyakannya memfokuskan pada bentuk 2D, tetapi anda juga dapat menarik elemen 3D ke laman web; untuk ini, anda mungkin menggunakan [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API).
+=======
+✅ Canvas API kebanyakannya memfokuskan pada bentuk 2D, tetapi anda juga dapat menarik elemen 3D ke laman web; untuk ini, anda mungkin menggunakan [WebGL API](https://developer.mozilla.org/docs/Web/API/WebGL_API).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Anda boleh menarik pelbagai perkara dengan Canvas API seperti:
 
@@ -201,7 +213,11 @@ Cuba selesaikannya sendiri terlebih dahulu tetapi jika anda buntu, lihatlah [sol
 
 ## 🚀 Cabaran
 
+<<<<<<< HEAD
 Anda telah belajar melukis dengan Canvas API 2D; lihatlah [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API), dan cuba lukis objek 3D.
+=======
+Anda telah belajar melukis dengan Canvas API 2D; lihatlah [WebGL API](https://developer.mozilla.org/docs/Web/API/WebGL_API), dan cuba lukis objek 3D.
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Kuiz Pasca Kuliah
 
@@ -209,7 +225,11 @@ Anda telah belajar melukis dengan Canvas API 2D; lihatlah [WebGL API](https://de
 
 ## Mengkaji & Belajar Sendiri
 
+<<<<<<< HEAD
 Ketahui lebih lanjut mengenai Canvas API dengan [membaca mengenainya](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
+=======
+Ketahui lebih lanjut mengenai Canvas API dengan [membaca mengenainya](https://developer.mozilla.org/docs/Web/API/Canvas_API).
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Tugasan
 

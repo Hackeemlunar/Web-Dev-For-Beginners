@@ -1,6 +1,10 @@
 # Browser Extension Project Part 1: All about Browsers
 
+<<<<<<< HEAD
 ![Browser sketchnote](images/sketchnote.jpg)
+=======
+![Browser sketchnote](/sketchnotes/browser.jpg)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 > Sketchnote by [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
 
 ## Pre-Lecture Quiz
@@ -69,7 +73,11 @@ CO2 Signal's API.
 - the [starter code](../start). Download the `start` folder; you will be completing code in this folder.
 - [NPM](https://www.npmjs.com) - NPM is a package management tool; install it locally and the packages listed in you `package.json` file will be installed for use by your web asset
 
+<<<<<<< HEAD
 ✅ Learn more about package management in this [excellent Learn module](https://docs.microsoft.com/en-us/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-13441-cxa)
+=======
+✅ Learn more about package management in this [excellent Learn module](https://docs.microsoft.com/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-13441-cxa)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 Take a minute to look through the codebase:
 
@@ -156,7 +164,11 @@ Take a look at a browser extension store and install one to your browser. You ca
 
 In this lesson you learned a little about the history of the web browser; take this opportunity to learn about how the inventors of the World Wide Web envisioned its use by reading more about its history. Some useful sites include:
 
+<<<<<<< HEAD
 [The History of Web Browsers](https://www.mozilla.org/en-US/firefox/browsers/browser-history/)
+=======
+[The History of Web Browsers](https://www.mozilla.org/firefox/browsers/browser-history/)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 [History of the Web](https://webfoundation.org/about/vision/history-of-the-web/)
 

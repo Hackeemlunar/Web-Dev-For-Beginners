@@ -2,7 +2,11 @@
 
 ## Quiz Pre-Lezione
 
+<<<<<<< HEAD
 [Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/27)
+=======
+[Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/27?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ### Introduzione
 
@@ -22,7 +26,11 @@ La scheda Prestazioni contiene uno strumento di profilazione. Aprire un sito web
 
 ![Edge profiler](../images/profiler.png)
 
+<<<<<<< HEAD
 ✅ Visitare la [documentazione Microsoft](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/performance) nel pannello Prestazioni in Edge
+=======
+✅ Visitare la [documentazione Microsoft](https://docs.microsoft.com/microsoft-edge/devtools-guide/performance) nel pannello Prestazioni in Edge
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 > Suggerimento: per ottenere una lettura fedele del tempo di avvio del proprio sito web, svuotare la cache del browser
 
@@ -147,7 +155,11 @@ Esaminare alcuni siti web open source che esistono da molto tempo e, in base all
 
 ## Quiz Post-Lezione
 
+<<<<<<< HEAD
 [Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/28)
+=======
+[Quiz post-lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/28?loc=it)
+>>>>>>> 9aa98943f8d4b570e8fbdcc01d8a56a118c2762a
 
 ## Revisione e Auto Apprendimento
 
